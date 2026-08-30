@@ -125,6 +125,7 @@ h1 {
 .matrix {
   border-collapse: collapse;
   margin: 0.9rem 0;
+  background: var(--paper);
   font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.92rem;
 }
