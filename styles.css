@@ -85,19 +85,66 @@ h1 {
 
 .note p:last-child { margin-bottom: 0; }
 
-/* Numbered argument scaffolds that appear inside notes */
-.argument {
+/* Shared "inset card" look for argument scaffolds and block quotes */
+.argument,
+.blockquote {
   background: var(--paper);
   border: 1px solid var(--ink-soft);
   border-radius: 4px;
   padding: 0.75rem 0.95rem;
   margin: 0.7rem 0;
+  color: var(--ink);
+  box-shadow: 1px 1px 0 var(--ink-soft);
+}
+
+/* Numbered argument scaffolds that appear inside notes or prompts */
+.argument {
   font-family: "SF Mono", Menlo, Consolas, monospace;
   font-size: 0.82rem;
   line-height: 1.55;
-  color: var(--ink);
   white-space: pre-wrap;
-  box-shadow: 1px 1px 0 var(--ink-soft);
+}
+
+/* Block quotes that appear inside notes or prompts */
+.blockquote {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 0.98rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.blockquote p {
+  margin: 0 0 0.5rem;
+}
+
+.blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Decision matrices / simple tables */
+.matrix {
+  border-collapse: collapse;
+  margin: 0.9rem 0;
+  font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.92rem;
+}
+
+.matrix th,
+.matrix td {
+  border: 1px solid var(--ink-soft);
+  padding: 0.5rem 0.9rem;
+  text-align: center;
+}
+
+.matrix thead th {
+  background: var(--note-bg);
+  font-weight: 700;
+}
+
+.matrix tbody th {
+  background: var(--note-bg);
+  font-weight: 700;
+  text-align: left;
 }
 
 h2 {
