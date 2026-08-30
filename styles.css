@@ -1,0 +1,109 @@
+:root {
+  --paper: #ffffff;
+  --ink: #241f1c;
+  --ink-soft: #746b5e;
+  --rule: #ddd1b8;
+  --prompt: #8a2d22;
+  --prompt-bg: #f7e9e6;
+  --note: #55606b;
+  --note-bg: #eef0f1;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3.5rem 1.75rem 6rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.2rem;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* PROMPT — spoken almost word-for-word, meant to stand out */
+.prompt {
+  margin: 2rem 0 0.9rem 2.4rem;
+  padding: 0.75rem 1.1rem;
+  border-left: 4px solid var(--prompt);
+  background: var(--prompt-bg);
+  border-radius: 0 5px 5px 0;
+}
+
+.prompt p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* NOTE — instructor's own annotation; secondary to the prompt, but still legible */
+.note {
+  margin: 0 0 1.6rem 2.4rem;
+  padding: 0.7rem 1.1rem;
+  border-left: 4px solid var(--note);
+  background: var(--note-bg);
+  border-radius: 0 5px 5px 0;
+  font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+.note::before {
+  content: "Instructor note";
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--note);
+  margin-bottom: 0.4rem;
+}
+
+.note p {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.note p:last-child { margin-bottom: 0; }
+
+/* Numbered argument scaffolds that appear inside notes */
+.argument {
+  background: var(--paper);
+  border: 1px solid var(--ink-soft);
+  border-radius: 4px;
+  padding: 0.75rem 0.95rem;
+  margin: 0.7rem 0;
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--ink);
+  white-space: pre-wrap;
+  box-shadow: 1px 1px 0 var(--ink-soft);
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+}
