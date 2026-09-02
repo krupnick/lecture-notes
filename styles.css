@@ -47,13 +47,31 @@ h1 {
   border-left: 4px solid var(--prompt);
   background: var(--prompt-bg);
   border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: opacity 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
 
 .prompt p {
-  margin: 0;
+  margin: 0 0 0.6rem;
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--ink);
+}
+
+.prompt p:last-child {
+  margin-bottom: 0;
+}
+
+/* Click a prompt to mark it as already used in class. Resets on reload. */
+.prompt.used {
+  opacity: 0.45;
+  background: var(--note-bg);
+  border-left-color: var(--ink-soft);
+}
+
+.prompt.used p {
+  text-decoration: line-through;
+  text-decoration-color: var(--ink-soft);
 }
 
 /* NOTE — instructor's own annotation; secondary to the prompt, but still legible */

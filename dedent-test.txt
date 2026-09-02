@@ -1,0 +1,25 @@
+# Dedent Test
+## Checking sub-block closes on dedent
+
+note:
+Existing in reality adds to a thing's greatness.
+
+    argument:
+    (1) God is the greatest thing that can be thought of
+    (2) There is only one greatest thing
+
+So we can now add the crucial premise back at the normal note level.
+This should NOT be part of the argument block above.
+
+prompt:
+Here's a prompt with an argument, then more prompt text, then another argument.
+
+    argument:
+    (1) First premise
+
+Some prompt text in between.
+
+    argument:
+    (2) Second premise, in a totally separate argument box
+
+Final line of the prompt, back at normal indentation.

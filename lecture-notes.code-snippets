@@ -1,0 +1,61 @@
+{
+  "Prompt block": {
+    "prefix": "prompt",
+    "body": [
+      "<div class=\"prompt\"><p>$1</p></div>"
+    ],
+    "description": "Insert a spoken prompt block"
+  },
+
+  "Instructor note": {
+    "prefix": "note",
+    "body": [
+      "<div class=\"note\"><p>$1</p></div>"
+    ],
+    "description": "Insert an instructor note block"
+  },
+
+  "Instructor note (multi-paragraph)": {
+    "prefix": "notep",
+    "body": [
+      "<div class=\"note\">",
+      "  <p>$1</p>",
+      "  <p>$2</p>",
+      "</div>"
+    ],
+    "description": "Insert an instructor note with two paragraphs"
+  },
+
+  "Argument block": {
+    "prefix": "arg",
+    "body": [
+      "<div class=\"argument\">$1</div>"
+    ],
+    "description": "Insert a numbered argument scaffold"
+  },
+
+  "New lecture page": {
+    "prefix": "lecture",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "<meta charset=\"UTF-8\">",
+      "<title>${1:Lecture Title} — Lecture Notes</title>",
+      "<link rel=\"stylesheet\" href=\"styles.css\">",
+      "</head>",
+      "<body>",
+      "<main>",
+      "",
+      "  <h1>${1:Lecture Title}</h1>",
+      "  <p class=\"subtitle\">${2:Course name — date}</p>",
+      "",
+      "  $0",
+      "",
+      "</main>",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Scaffold a new lecture notes page"
+  }
+}

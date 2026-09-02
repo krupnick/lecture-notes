@@ -29,6 +29,18 @@ or the end of the file.
   - Wrapping a word or phrase in *asterisks* renders it as <em>italics</em>.
   - Straight quotes (" and ') are automatically converted to curly quotes.
 
+NESTING an argument, quote, or table INSIDE a prompt or note:
+  Indent the "argument:", "quote:", or "table:" tag line (a few spaces or
+  a tab) and it will be nested inside the prompt/note above it instead of
+  becoming its own separate block. An unindented tag always starts a new
+  top-level block. "prompt:" and "note:" themselves are always top-level
+  and cannot be nested.
+
+  To go back to writing plain prompt/note text after a nested sub-block,
+  just dedent your next line back to the left margin -- no closing tag
+  needed. The sub-block ends automatically as soon as it sees a non-blank
+  line that isn't indented.
+
 Any line starting with % anywhere in the file is treated as a comment and
 dropped entirely -- handy for keeping cut material in your notes file
 without it ending up in the HTML.
@@ -45,8 +57,11 @@ exists.
 note:
 Select student at random.
 
-argument:
-(1) God is the greatest thing that can be thought of
+prompt:
+Might there be multiple things than which nothing greater can be thought?
+
+    argument:
+    (1) God is the greatest thing that can be thought of
 
 quote:
 "Something than which nothing greater can be thought."
@@ -61,10 +76,16 @@ USAGE
 import sys
 import re
 import html
+import textwrap
 from pathlib import Path
 
 TAG_PATTERN = re.compile(
     r'^(prompt|note|instructor note|argument|quote|table)\s*:?\s*$',
+    re.IGNORECASE,
+)
+
+NESTABLE_TAG_PATTERN = re.compile(
+    r'^(argument|quote|table)\s*:?\s*$',
     re.IGNORECASE,
 )
 
@@ -119,13 +140,16 @@ def paragraphs_html(raw_lines, indent='    '):
 
 
 def argument_text(raw_lines):
-    """Preserve line breaks for argument blocks; trim leading/trailing blanks."""
+    """Preserve line breaks for argument blocks; trim leading/trailing
+    blanks, and dedent so indentation used only to signal nesting inside
+    a prompt/note doesn't become part of the visible content."""
     lines = list(raw_lines)
     while lines and lines[0].strip() == '':
         lines.pop(0)
     while lines and lines[-1].strip() == '':
         lines.pop()
-    return '\n'.join(html.escape(line, quote=False) for line in lines)
+    dedented = textwrap.dedent('\n'.join(lines)).split('\n')
+    return '\n'.join(html.escape(line, quote=False) for line in dedented)
 
 
 def table_html(raw_lines):
@@ -166,7 +190,11 @@ def table_html(raw_lines):
     )
 
 
-def parse_blocks(lines):
+def parse_top_level(lines):
+    """Split the file into top-level blocks. A tag line only starts a new
+    top-level block if it is NOT indented; indented argument/quote/table
+    tag lines are left inside the current block's raw lines, to be picked
+    up later by split_segments() as nested content."""
     blocks = []
     current_tag = None
     current_lines = []
@@ -176,8 +204,10 @@ def parse_blocks(lines):
             blocks.append((current_tag, current_lines[:]))
 
     for line in lines:
-        m = TAG_PATTERN.match(line.strip())
-        if m:
+        stripped = line.strip()
+        is_indented = bool(line) and line[0].isspace()
+        m = TAG_PATTERN.match(stripped) if stripped else None
+        if m and not is_indented:
             flush()
             current_tag = TAG_MAP[m.group(1).lower()]
             current_lines = []
@@ -187,12 +217,84 @@ def parse_blocks(lines):
     return blocks
 
 
+def split_segments(raw_lines):
+    """Within a prompt/note block's raw lines, split into an ordered list
+    of ('text', lines) and ('argument'/'quote'/'table', lines) segments,
+    based on indented sub-tag lines.
+
+    A nested sub-block runs for as long as its lines stay indented. The
+    first non-blank line that dedents back to the left margin ends the
+    sub-block and resumes plain prompt/note text -- no closing tag
+    needed. Blank lines inside a sub-block don't end it by themselves;
+    only the indentation of the next real line decides."""
+    segments = []
+    current_type = 'text'
+    current_lines = []
+    pending_blanks = []
+
+    def flush():
+        segments.append((current_type, current_lines[:]))
+
+    for line in raw_lines:
+        stripped = line.strip()
+
+        if stripped == '':
+            pending_blanks.append(line)
+            continue
+
+        is_indented = line[0].isspace()
+
+        if current_type != 'text' and not is_indented:
+            # Dedented back to the margin: end the sub-block (dropping the
+            # blank line(s) that separated it) and resume plain text.
+            flush()
+            current_type = 'text'
+            current_lines = []
+            pending_blanks = []
+
+        if pending_blanks:
+            current_lines.extend(pending_blanks)
+            pending_blanks = []
+
+        m = NESTABLE_TAG_PATTERN.match(stripped) if is_indented else None
+        if m:
+            flush()
+            current_type = m.group(1).lower()
+            current_lines = []
+        else:
+            current_lines.append(line)
+
+    flush()
+    return segments
+
+
+def render_segments(raw_lines, base_indent='    '):
+    """Render a prompt/note body that may contain nested argument/quote/
+    table sub-blocks, in the order they appeared."""
+    parts = []
+    for seg_type, seg_lines in split_segments(raw_lines):
+        if seg_type == 'text':
+            part = paragraphs_html(seg_lines, indent=base_indent)
+        elif seg_type == 'argument':
+            part = f'{base_indent}<div class="argument">{argument_text(seg_lines)}</div>'
+        elif seg_type == 'quote':
+            inner = paragraphs_html(seg_lines, indent=base_indent + '  ')
+            part = f'{base_indent}<div class="blockquote">\n{inner}\n{base_indent}</div>'
+        elif seg_type == 'table':
+            part = table_html(seg_lines)
+        else:
+            part = ''
+        if part.strip():
+            parts.append(part)
+    return '\n\n'.join(parts)
+
+
 def block_to_html(tag, raw_lines):
     if tag == 'prompt':
-        inner = paragraphs_html(raw_lines)
+        inner = render_segments(raw_lines)
         return f'  <div class="prompt">\n{inner}\n  </div>'
     if tag == 'note':
-        inner = paragraphs_html(raw_lines)
+        inner = render_segments(raw_lines)
         return f'  <div class="note">\n{inner}\n  </div>'
     if tag == 'argument':
         inner = argument_text(raw_lines)
@@ -226,7 +328,7 @@ def convert(input_text):
             idx += 1
 
     body_lines = lines[idx:]
-    blocks = parse_blocks(body_lines)
+    blocks = parse_top_level(body_lines)
     body_html = '\n\n'.join(block_to_html(tag, raw) for tag, raw in blocks)
 
     return f'''<!DOCTYPE html>
@@ -245,6 +347,7 @@ def convert(input_text):
 {body_html}
 
 </main>
+<script src="script.js"></script>
 </body>
 </html>
 '''
