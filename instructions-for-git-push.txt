@@ -1,0 +1,5 @@
+Instructions for pushing updates to git hub repository:
+
+   git add .
+   git commit -m "describe what changed"
+   git push
