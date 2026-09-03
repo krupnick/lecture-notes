@@ -41,6 +41,15 @@ NESTING an argument, quote, or table INSIDE a prompt or note:
   needed. The sub-block ends automatically as soon as it sees a non-blank
   line that isn't indented.
 
+SECTION HEADINGS:
+  A line starting with "## " anywhere in the body becomes a section
+  heading (<h2>) at that point in the page, automatically numbered
+  1, 2, 3... in the order they appear -- just write the heading text,
+  no need to type the number yourself. (The one exception: a "## " line
+  immediately after the "# Title" line at the very top of the file is
+  the subtitle, not a heading -- same as before, and doesn't count
+  toward the numbering.)
+
 Any line starting with % anywhere in the file is treated as a comment and
 dropped entirely -- handy for keeping cut material in your notes file
 without it ending up in the HTML.
@@ -88,6 +97,8 @@ NESTABLE_TAG_PATTERN = re.compile(
     r'^(argument|quote|table)\s*:?\s*$',
     re.IGNORECASE,
 )
+
+HEADING_PATTERN = re.compile(r'^##\s+(.+)$')
 
 TAG_MAP = {
     'prompt': 'prompt',
@@ -194,7 +205,8 @@ def parse_top_level(lines):
     """Split the file into top-level blocks. A tag line only starts a new
     top-level block if it is NOT indented; indented argument/quote/table
     tag lines are left inside the current block's raw lines, to be picked
-    up later by split_segments() as nested content."""
+    up later by split_segments() as nested content. A "## " line becomes
+    its own single-line 'heading' block."""
     blocks = []
     current_tag = None
     current_lines = []
@@ -206,6 +218,15 @@ def parse_top_level(lines):
     for line in lines:
         stripped = line.strip()
         is_indented = bool(line) and line[0].isspace()
+
+        heading_match = HEADING_PATTERN.match(stripped) if (stripped and not is_indented) else None
+        if heading_match:
+            flush()
+            current_tag = None
+            current_lines = []
+            blocks.append(('heading', [heading_match.group(1)]))
+            continue
+
         m = TAG_PATTERN.match(stripped) if stripped else None
         if m and not is_indented:
             flush()
@@ -329,7 +350,16 @@ def convert(input_text):
 
     body_lines = lines[idx:]
     blocks = parse_top_level(body_lines)
-    body_html = '\n\n'.join(block_to_html(tag, raw) for tag, raw in blocks)
+
+    heading_num = 0
+    body_parts = []
+    for tag, raw in blocks:
+        if tag == 'heading':
+            heading_num += 1
+            body_parts.append(f'  <h2>{heading_num}. {format_inline(raw[0])}</h2>')
+        else:
+            body_parts.append(block_to_html(tag, raw))
+    body_html = '\n\n'.join(body_parts)
 
     return f'''<!DOCTYPE html>
 <html lang="en">
