@@ -50,6 +50,10 @@ SECTION HEADINGS:
   the subtitle, not a heading -- same as before, and doesn't count
   toward the numbering.)
 
+  If the file has any section headings, a table of contents linking to
+  each one is generated automatically at the top of the page, right
+  after the subtitle. No markup needed for this -- it just happens.
+
 Any line starting with % anywhere in the file is treated as a comment and
 dropped entirely -- handy for keeping cut material in your notes file
 without it ending up in the HTML.
@@ -353,13 +357,32 @@ def convert(input_text):
 
     heading_num = 0
     body_parts = []
+    toc_entries = []
     for tag, raw in blocks:
         if tag == 'heading':
             heading_num += 1
-            body_parts.append(f'  <h2>{heading_num}. {format_inline(raw[0])}</h2>')
+            heading_text = format_inline(raw[0])
+            body_parts.append(
+                f'  <h2 id="section-{heading_num}">{heading_num}. {heading_text}</h2>'
+            )
+            toc_entries.append((heading_num, heading_text))
         else:
             body_parts.append(block_to_html(tag, raw))
     body_html = '\n\n'.join(body_parts)
+
+    toc_html = ''
+    if toc_entries:
+        items = '\n'.join(
+            f'      <li><a href="#section-{num}">{num}. {text}</a></li>'
+            for num, text in toc_entries
+        )
+        toc_html = (
+            '  <nav class="toc">\n'
+            '    <ul>\n'
+            f'{items}\n'
+            '    </ul>\n'
+            '  </nav>\n\n'
+        )
 
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -374,7 +397,7 @@ def convert(input_text):
   <h1>{format_inline(title)}</h1>
   <p class="subtitle">{format_inline(subtitle)}</p>
 
-{body_html}
+{toc_html}{body_html}
 
 </main>
 <script src="script.js"></script>
