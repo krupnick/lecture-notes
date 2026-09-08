@@ -360,6 +360,14 @@ On this way of reading (3.2), the inference from (3.1) and (3.2) to (4) is valid
 
 However, (3.2b) is clearly false, and indeed it's arguably contradictory---if a thing exists *only* in your understanding, then it doesn't really make sense to talk about a "version" of it that also exists in reality. If it exists in reality, then it doesn't only exist in your understanding in the first place.
 
+So, ultimately, we can see Anselm's argument as committing a fallacy of equivocation. There is a key phrase---"it can be thought to exist in reality as well---which is ambiguous. If the phrase is interpreted one way, the premise in question is true, but then the reasoning from it is invalid. If the phrase is interpreted the other way, the reasoning from the premise is valid, but the premise itself is false. The allure of the argument hinges on your unknowingly swithcing back and forth between the two interpretations, which makes you see the premise as true and the reasoning as valid.
+
+An example of an argument that committs an obvious fallacy of equivocation is:
+	argument:
+	(1) Anyone who creates a racket every few minutes is annoying and should be stopped.
+	So: (2) Factory workers who assemble tennis equipment are annoying and should be stopped.
+The phrase, "creates a racket" has two different meanings. On one meaning, where it has to do with creating an obnoxious sound, the first premise is true, but then the conclusion doesn't follow. On the second reading, where it means assembling the piece of equipment you play tennis with, the conclusion follows from the premise, but then the premise is false.
+
 
 
 
