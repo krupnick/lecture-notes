@@ -98,14 +98,18 @@ Is there a different scientifc theory that explains how the very first living th
 note:
 Various candidates. But nothing with widespread support. All have holes or flaws.
 
-So if we think the argument is unsound, we have to find a way to object to it without being able to say, "This specific scientific theory offers a better explanation than intelligent design."
+So if we think the argument is unsound, we have to find a way to object to it without being able to say, "This specific scientific theory offers a better explanation of the origins of life than intelligent design."
 
-Are there good objections that do not fit into that category?
+Also, even if we converge on a scientific explanation for the origin of life, what about the next thing which we are at least temporarily unable to explain scientifically? 
+
+We don't want to be in the position of then having to concede that it's reasonable to believe in intelligent design.
+
+So are there good objections to the argument that do not hinge on having an adequate scientific theory already at hand?
 
 ## Hume's first objection
 
 prompt: 
-Byrne says that Hume presented the ``key objections'' to this sort of argument. 
+Byrne says that Hume presented the ``key objections'' to this sort of argument, neither of which depend on having an adequate scientific theory to appeal to as an alternative explanation.
 
 He focuses on two objections from Hume in particular. What is the first objection that Byrne describes? 
 
@@ -115,7 +119,7 @@ Students can just answer, or if time permits they can read the relevant part of 
 The first objection points out that the conclusion falls far short of what the traditional theist would like to establish. It's compatible with all sorts of views very different from what the theist really wants to say. 
 
 prompt:
-So if someone comes to you and says that they believe in an intelligent designer God because there is no other way to explain the origin of life, what's one thing you can say in response?
+So if someone comes to you and says that they believe in an intelligent designer *God* because there is no other way to explain the origin of life, what's one thing you can say in response, keeping Hume's first objection in mind?
 
 note:
 Why does it have to be a designer *God*? Even if we concede some design was involved, there are still so many options.
@@ -130,12 +134,14 @@ What is Hume's second objection?
 note:
 Can have students just try to answer, or read first, time permitting.
 
-The objection is that the second premise is false---best explanation is intelligent design---because a better explanation is simply, "it was some natural process or other.''
+If not reading: the objection is that the second premise is false---best explanation is intelligent design---because a better explanation is simply, "it was some natural process or other.''
+
+If reading: I read first paragraph. Then the first few sentences of the next, up to the quote below.
 
 prompt:
 Byrne writes:
     quote:
-    "Paley's strategy for dismissing no-design alternatives wholesale is to object to the specific evolutionary theories of his day (for instance, that of Erasmus Darwin, Charles's grandfather). But this is rather like saying that because this apple and that pear are rotten, vegetables are better than fruit. What Paley needs is an argument for choosing the general hypothesis of an unknown designer or designers operating by unknown means over the general hypothesis of an unknown blind process operating by unknown means, and he signally fails to supply one."
+    Paley's strategy for dismissing no-design alternatives wholesale is to object to the specific evolutionary theories of his day (for instance, that of Erasmus Darwin, Charles's grandfather). But this is rather like saying that because this apple and that pear are rotten, vegetables are better than fruit. What Paley needs is an argument for choosing the general hypothesis of an unknown designer or designers operating by unknown means over the general hypothesis of an unknown blind process operating by unknown means, and he signally fails to supply one.
 In your own words, what point is Byrne making here?
     
 note:    
@@ -143,15 +149,19 @@ Showing, of specific scientific theories, that they cannot provide the explanati
 
 It doesn't show that no such theory has a reasonable chance of working.
 
+But that's what Paley needs to show in order to make his second premise plausible.
+
 prompt: 
 Byrne writes:
     quote:
-     ``An example that briefly appears in Darwin's Black Box nicely illustrates the point. In *2001: A Space Odyssey*, a magnetic anomaly in one of the moon's craters leads to the discovery of a perfectly regular slab buried under lunar soil. The characters have no idea how the slab was constructed, or what it is for, and have never known an artist capable of making one; nevertheless they reasonably conclude that it was designed. But that is precisely because the characters are *not* in Paley’s position. They know enough about lunar geology, astronomy, and the possibility of extraterrestrial life to discredit the rival hypothesis that the monolith is a natural object (a big crystal, say) that formed on the moon or collided with it.Paley, on the other hand, had no reason, other than the failure of his imagination, to dismiss the hypothesis of `causes without design'.'' 
-Why are the characters from 2001 not in Paley's position? What does Byrne mean by that? 
+     An example that briefly appears in Darwin's Black Box nicely illustrates the point. In *2001: A Space Odyssey*, a magnetic anomaly in one of the moon's craters leads to the discovery of a perfectly regular slab buried under lunar soil. The characters have no idea how the slab was constructed, or what it is for, and have never known an artist capable of making one; nevertheless they reasonably conclude that it was designed. But that is precisely because the characters are *not* in Paley’s position. They know enough about lunar geology, astronomy, and the possibility of extraterrestrial life to discredit the rival hypothesis that the monolith is a natural object (a big crystal, say) that formed on the moon or collided with it. Paley, on the other hand, had no reason, other than the failure of his imagination, to dismiss the hypothesis of `causes without design'. 
+Byrne here draws a contrast between the characters from 2001 and Paley. What's the contrast he is drawing? What's the crucial distinction between them? 
 
 note:
-He means that they *are* in a position to say that there is no reasonable no-design explanation available (the same is true for the person who finds a watch and discovers what it does and how).
+The characters from 2001 *are* in a position to say that there is no reasonable no-design explanation available (the same is true for the person who finds a watch and discovers what it does and how).
 
 The characters in 2001 have enough knowledge to conclude that *no* natural explanation is workable.
 
 By contrast, while Paley, or more modern proponents of ID, may have good reasons for ruling out specific natural/scientific explanations of the phenomena they are pointing to, they do not have good reasons for concluding that *no* such explanation is workable. 
+
+So ``some natural process or other'' still stands as a better explanation than, ``it was intelligent design.''

@@ -36,7 +36,7 @@ Because God *could* stop it (all-powerful), and someone who cared would do that.
 ## An initial reconstruction
 
 prompt:
-Antony offers an initial step-by-step reconstruction of the argument that she deems the Logical Argument from Suffering. What does she think of the argument in this form?
+Antony offers an initial step-by-step reconstruction of the argument that she deems the Logical Argument from Suffering (pg.38). What does she think of the argument in this form?
 
 note:
 That it is not sound.
@@ -105,10 +105,10 @@ And what's the problem with the current version of the argument, according to An
 note:
 The added premise (2.5) is not absolutely certain (it's not a conceptual or logical truth?).
 
-## The final form of the argument. Is its conclusion still important?
+## The final form of the argument. Proof of non-existence vs extremely high likelihood of non-existence.
 
 prompt:
-Antony then puts forward a last modification to the argument, and calls the resulting argument--it's final form--the Evidential Argument from Suffering. How is it different from the previous version?
+Antony then puts forward a last modification to the argument, and calls the resulting argument--it's final form--the Evidential Argument from Suffering (pg.41). How is it different from the previous version?
 
 note:
 It concludes merely that *probably* there is no God, based on the premise that *probably* there is no good reason that a morally good, omnipotent being could have to allow suffering.
@@ -136,7 +136,7 @@ prompt:
 Is this final version of the argument sound? As she starts her defense of it, Antony says, ``The atheist should start by explaining what it is for someone to have a `good reason' for permitting suffering.'' Why should the atheist do this? How would it help them?
 
 note:
-The key premise in their argument says that there is *not* a good reason for suffering. This premise can be bolstered by describing what a good reason *would be*, and then showing that nothing like that exists.
+The key premise in the atheist's argument says that there is *not* a good reason for suffering. This premise can be bolstered by describing what a good reason *would be*, and then showing that nothing like that exists.
 
 prompt:
 To get at what makes for a good reason, Antony goes back to her parent-child example, where parent did indeed have a good reason. She says:
@@ -145,18 +145,20 @@ To get at what makes for a good reason, Antony goes back to her parent-child exa
 How does Antony answer her own question here?
 
 note:
+Read the paragraph that starts, "First of all, ..." (bottom of pg.41).
+
 First is that the parent acted on the basis of a *morally laudable* goal.
 
 Second is that it was a *sufficiently important* morally laudable goal. Couldn't let child suffer just to not interrupt a story. 
 
 Third is that the parent's action was *fair*---it was directed towards ultimately helping the child themselves, as opposed to someone else.
 
-## What are some candidate good reasons for the suffering we have on Earth? Do they meet the criteria?
+## What are some candidate good reasons for the suffering we have on Earth? Are they actually good reasons?
 
 prompt:
 Is there, then, any good reason for the suffering that exists? What might the theist say in response to that? 
 
-Antony considers one thing they might say:
+Antony considers one thing they might say (pg.42):
     quote:
     So the first requirement that would have to be met for God to have a good reason for permitting the amount of suffering we observe in the world is that that reason would have to be very, very, *very* important, because we re talking about an *enormous* amount of suffering...Well, how about this as a surpassing important moral goal: eternal bliss?''
 What's being suggested here by the theist?
@@ -165,20 +167,24 @@ note:
 That we suffer because it's necessary to get in to Heaven?
 
 prompt:
-And what is an issue with that answer from the theist?
+And what is an issue Antony has with that answer from the theist?
 
 note:
 Why is it *necessary* for us to suffer to get there?
 
+Antony: "What kind of `necessity' could there be that compels God to use suffering to achieve his goal"? (pg.42)
+
 43: "It's very difficult to see what kind of `necessity' could force God to trade off suffering now for greater happiness later."
 
-We have limited means to accomplish our goals of greater happiness. No choice but to go through suffering to get there. But God is all-powerful.
+*We* have limited means to accomplish our goals of greater happiness. No choice but to go through suffering to get there. But God is all-powerful.
 
 prompt:
 Next Antony considers the so-called free will defense. What is that?
 
 note:
 God allows us to suffer because it's necessary for maintainig our free will. 
+
+See second to last paragraph pg.43 for Antony's way of articulating the free-will defense.
 
 prompt:
 And what is Antony's problem with the free-will defense?
