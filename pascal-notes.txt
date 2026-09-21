@@ -1,0 +1,104 @@
+#Pascal's Wager
+## PHIL-1 Lecture notes
+
+## What Pascal is arguing for
+
+prompt:
+What is Pascal arguing for?
+
+note:
+Not trying to prove that God exists. 
+
+Sees believing in God as a *choice*, like the choice of what school to attend.
+
+What's the best choice for you? If you are rational, what should you choose?
+
+Pascal says that *any* rational person would choose to believe in God.
+
+## The basic idea of Pascal's argument
+
+prompt:
+What's the basic idea of his argument?
+
+note:
+Believing in God gives you the chance at an infinite reward.
+
+To fully assess it, we need to spell it out carefully.
+
+Modern treatments of Pascal's argument see it as relying on "standard decision theory." So to understand his argument, as typically understood, we need to talk about decision theory.
+
+## Background on standard decision theory
+
+prompt:
+Suppose I offer you the opportunity to bet on how much rain there will be in New Delhi, India this month.
+    table:
+    | | |
+    | Bet | |
+    | Don't bet | |
+
+prompt: 
+In particular, you have the opportunity to bet that there will be at least 3 inches of rain. 
+
+I tell you that if there is at least 3 inches of rain, then I will give you some money.
+    table:
+    | | ≥ 3 in. rain |
+    | Bet | earn some money |
+    | Don't bet | |
+
+prompt:
+But if there is less than 3in, then I will take a certain amount of money from you.
+    table:
+    | | ≥ 3 in. rain | < 3 in. rain
+    | Bet | earn some money | lose some money
+    | Don't bet | |
+
+prompt:
+And of course if you don't bet, then nothing happens.
+    table:
+    | | ≥ 3 in. rain | < 3 in. rain
+    | Bet | earn some money | lose some money
+    | Don't bet | status quo | status quo
+
+prompt:
+Would you take the bet?
+
+note:
+No.
+
+prompt:
+Why not?
+
+note:
+Not clear how much money is at stake (nor what the odds of that much rain are).
+
+prompt:
+What happens if we change the outcome for less than 3 inches of rain to "earn some money"?
+    table:
+    | | ≥ 3 in. rain | < 3 in. rain
+    | Bet | earn some money | earn some money
+    | Don't bet | status quo | status quo
+Do you take the bet?
+
+note:
+Yes. Because now you win either way. No matter what happens, you are better off betting.
+
+prompt:
+And what if we change the outcome for less than 3 inches of rain to "status quo"?
+    table:
+    | | ≥ 3 in. rain | < 3 in. rain
+    | Bet | earn some money | status quo
+    | Don't bet | status quo | status quo
+Do you take the bet?
+
+note:
+Yes, because you can't end up worse off by betting, and you could end up better off. 
+
+The decison to bet "dominates" the decision not to bet.
+
+prompt:
+In Pascal's Wager, your choices are Wager on God, or Wager against God. And you get a really big payoff if you Wager on God and God exists.
+    table:
+    | | God exists | God does not exist
+    | Wager on God | huge reward | 
+    | Wager against God |  | 
+
