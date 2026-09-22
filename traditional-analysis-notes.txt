@@ -1,0 +1,109 @@
+#The Traditional Analysis of Knowledge
+## PHIL-1 Lecture notes
+
+
+## What is Gettier arguing for?
+
+prompt:
+What is the main conclusion that Gettier argues for? How do you know? Is there a specific passage where he states his central thesis?
+
+note:
+Gettier says (pg.144), "I shall argue that (a) is false," where (a) refers to a thesis defined on the previous page.
+
+Before we go any further, we should clarify what (a) is saying, and why someone might be tempted to accept it in the first place.
+
+So let's go back (pg.133) to the intro to this whole section of the textbook.
+
+## Different types of knowledge
+
+prompt:
+The textbook distinguishes between a few different kinds of knowledge. One is propositional knowledge. What is propositional knowledge? What is it that is known when one has propositional knowledge?
+
+note:
+One knows a proposition.
+
+prompt:
+And what's a proposition?
+
+note:
+It's a statement. It's a thing that is either true or false.
+
+prompt:
+And how do we attribute propositional knowledge to a person? What would be an example?
+
+note:
+We attribute it by saying: so and so knows *that* such and such is the case. For example, "Obama knows that Chicago is in the Midwest."
+
+prompt:
+The text also discusses so-called aquaintance or personal knowledge. What would be an example?
+
+note:
+It's knowing a person or a place. For example, "Evans knows Robert Redford," or "Evans knows Scotland."
+
+prompt:
+And why are these two *different kinds* of knowledge? 
+
+note:
+No amount of propositional knowledge seems to suffice for or amount to personal knowledge.
+
+For example, no matter how much you know about Robert Redford---you know lots of facts about his life---that is different from meeting him personally. So there is a sense in which you still do not, "know Robert Redford." 
+
+prompt:
+A third kind of knowledge that the text mentions is so-called procedural knowledge, or knowledge-how. What would be an example?
+
+note:
+"Marvin knows how to make an omelette."
+
+prompt:
+And why does knowledge-how also seem to be different from propositional knowledge?
+
+note:
+Because propositional knowledge seems not to automatically give you knowledge-how. Even if you read a whole book on how to make the perfect omelette, there might still be some sense in which you do not know how to make one. 
+
+## Our central question
+
+prompt:
+We are making the effort to distinguish between these different types of knowledge because we want to clarify that our central question---what is knowledge?---is about *propositional* knowledge specifically.
+
+Our central question is: What does it take for a subject to know a proposition? Under what conditions, exactly, is that accomplished? When do you count as knowing a certain proposition to be true?
+
+prompt:
+This seems like a question that we should be able to answer---given that we go around making claims about knowledge all the time.
+
+prompt:
+But it's surprisingly difficult. And the current consensus, which has been the consensus for quite some time, is that there is no non-trivial answer to the question of what knowledge is.
+
+note:
+At least not in the form that philosophers have been seeking (informative necessary and sufficient conditions).
+
+prompt:
+But that consensus was reached after many years (decades) of attempts to answer the question of what it takes to have knowledge. And it's instructive to dive in to that history a bit. So that's what we'll do.
+
+## The traditional analysis of knowledge
+
+prompt:
+There is an answer to the question of what it takes to have knowledge that at least initially seems quite compelling (it's the very answer that Gettier argues against). 
+
+This gets called the traditional analysis of knowledge.
+
+prompt:
+We want to work our way up to it, to try to understand why it is at least initially compelling. Then we'll go back to Gettier and his argument against it.
+
+prompt:
+The textbook says that, "One uncontroversial component of knowledge is truth." First, what does it mean to say that one, "component of knowledge is truth"?
+
+note:
+It means that a person cannot know something which is false.
+
+If S knows p, then p is true.
+
+prompt:
+And why is that uncontroversial?
+
+note:
+Sometimes a person *takes themselves* to know something which is in fact false. They would *describe themselves* as knowing it. 
+
+But they do not actually know it. Knowledge implies being correct. It implies being accurately informed.
+
+If what you believe is a bunch of falsehoods, you are uninformed. You do not have knowledge.
+
