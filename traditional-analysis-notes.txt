@@ -14,7 +14,7 @@ Before we go any further, we should clarify what (a) is saying, and why someone 
 
 So let's go back (pg.133) to the intro to this whole section of the textbook.
 
-## Different types of knowledge
+## Our central question - propositional knowledge vs other kinds of knowledge
 
 prompt:
 The textbook distinguishes between a few different kinds of knowledge. One is propositional knowledge. What is propositional knowledge? What is it that is known when one has propositional knowledge?
@@ -27,6 +27,8 @@ And what's a proposition?
 
 note:
 It's a statement. It's a thing that is either true or false.
+
+Maybe ask for some examples of true propositions and of false propositions.
 
 prompt:
 And how do we attribute propositional knowledge to a person? What would be an example?
@@ -60,8 +62,6 @@ And why does knowledge-how also seem to be different from propositional knowledg
 note:
 Because propositional knowledge seems not to automatically give you knowledge-how. Even if you read a whole book on how to make the perfect omelette, there might still be some sense in which you do not know how to make one. 
 
-## Our central question
-
 prompt:
 We are making the effort to distinguish between these different types of knowledge because we want to clarify that our central question---what is knowledge?---is about *propositional* knowledge specifically.
 
@@ -77,9 +77,13 @@ note:
 At least not in the form that philosophers have been seeking (informative necessary and sufficient conditions).
 
 prompt:
-But that consensus was reached after many years (decades) of attempts to answer the question of what it takes to have knowledge. And it's instructive to dive in to that history a bit. So that's what we'll do.
+But that consensus was reached after many years (decades) of attempts to answer the question of what it takes to have knowledge. 
 
-## The traditional analysis of knowledge
+And it's instructive to dive in to that history a bit. We can learn things about knowledge from looking at the various attempts to analyze it. 
+
+So that's what we'll do.
+
+## The traditional analysis of knowledge - motivating it and explaining what it says
 
 prompt:
 There is an answer to the question of what it takes to have knowledge that at least initially seems quite compelling (it's the very answer that Gettier argues against). 
@@ -106,4 +110,176 @@ Sometimes a person *takes themselves* to know something which is in fact false. 
 But they do not actually know it. Knowledge implies being correct. It implies being accurately informed.
 
 If what you believe is a bunch of falsehoods, you are uninformed. You do not have knowledge.
+
+prompt:
+The text also states, "Belief is a good candidate for another component of knowledge." Why is that?
+
+note:
+If a person doesn't even accept p as true in the first place, then it can hardly be said that they know p. 
+
+Knowing implies being convinced, being completely certain even.
+
+So we also have: If S knows p, then S believes p
+
+Note that for philosophers, "believes" just means "takes to be true."
+
+prompt:
+The textbooks states:
+    quote:
+    So far, we have two components of knowledge: truth and belief. If S knows p, then it must be that (i) p is true, and (ii) S believes p. In other words, (i) and (ii) are necessary conditions for S to know p...Might they also be, taken together, a sufficient condition for knowledge?...[A]s has been known since Plato's time, belief and truth are not sufficient for knowledge (135).
+Can you give your own example which shows that ``belief and truth are not sufficient for knowledge''?
+
+note:
+Looking for a subject with a true belief, but who lacks any real justification or evidence for their true belief.
+
+prompt:
+Why aren't belief and truth sufficient for knowledge? What are the individuals who have true beliefs, but still fail to have knowledge, most obviously lacking?
+
+note:
+Lacking justification, reasons, evidence.
+
+If S knows p, then S is justified in believing p.
+
+prompt:
+So now we have 3 plausible necessary conditions for knowledge:
+
+S knows p only if p is true, S believes p, and S is justified in believing p
+
+Might those three conditions taken together constitute a sufficient condition for knowledge? 
+
+Arguably yes. Being correct, and having good reasons to back you up, seems like knowledge. 
+
+S knows p if p is true, S believes p, and S is justified in believing p.
+
+That those three conditions are individually necessary and jointly sufficient for knowledge is precisely what thesis (a) in Gettier's paper says. Sometimes called the traditoinal analysis, or the JTB analysis.
+
+## Gettier's objection - his initial two points
+
+prompt:
+Gettier says:
+    quote:
+     I shall begin by noting two points. First, in that sense of `justified' in which S's being justified in believing P is a necessary condition of S's knowing that P, it is possible for a person to be justified in believing a proposition that is in fact false.
+How can that happen? What would be an example in which there is a false proposition that a person is nevertheless still justified in believing?
+
+note:
+A person gets bad testimony from an otherwise reliable source.
+
+Or they grow up in an era when a falsehood is widely accepted (e.g., the sun rotates around the earth).
+
+prompt:
+Gettier continues:
+    quote: Secondly, for any proposition P, if S is justified in believing P, and P entails Q, and S deduces Q from P and accepts Q as a result of this deduction, then S is justified in believing Q.
+What does it mean to say that one proposition P "entails" another proposition Q? Can you give an example of that? 
+
+note:
+It means that the truth of P absolutely guarantees the truth of Q. Example: that I have a sister entails that I have a sibling.
+
+prompt:
+What about an example where one proposition P almost, but does not quite, entail a further proposition Q?
+
+note:
+That I have a sister does not quite entail that I have a friend. :(
+
+prompt:
+Is the principle that Gettier articulates here plausible?
+
+note:
+Yes, seems pretty safe.
+
+prompt:
+Gettier says:
+    quote:
+    Keeping these two points in mind, I shall now present two cases in which the conditions stated in (a) are true for some proposition, though it is at the same time false that the person in question knows the proposition.
+So let's now look at his two cases, which are meant to show that belief, truth, and justification are not jointly sufficient for knowledge.
+
+## Gettier's objection - the first example
+
+prompt:
+Let's read Gettier's first example 
+
+[Read up to "Proposition (d) entails"]
+
+note:
+The two pieces of information contained in (d) are not related to each other. Smith is just adding two unrelated pieces of information together.
+
+prompt:
+[Read up to, "But imagine, further..."]
+
+When Gettier says, "Smith is clearly justified in believing that (e) is true," what earlier point is he relying on?
+
+note:
+The idea that if you are justified in believing P, and P entails Q, etc.
+
+prompt:
+[Read up to, "In our example, then,..."]
+
+Why is proposition (d) false?
+
+note:
+Because it's not actually true that Jones is the man who will get the job.
+
+prompt:
+So Smith was justified in believing (d) even though it was actually false. 
+
+And why is proposition (e) true?
+
+note:
+Because Smith will get the job, and he has 10 coins in his pocket.
+
+prompt:
+So Smith starts out justified in believing something false (remember Gettier's first point) and then that thing entails something which happens to be true, which Smith goes on to derive, thereby coming to be justified in believing that true thing (remember Gettier's second point).
+
+So now Smith has a belief that is true and justified in proposition (e).
+
+prompt:
+[Read the rest of the example.]
+
+Gettier says it is clear that Smith does not know (e). Do you agree?
+
+note:
+Seems right.
+
+prompt:
+So justified true belief is not sufficient for knowledge.
+
+## Gettier's objection - the second example
+
+prompt:
+Let's now read through the second example.
+
+[Read up to, "Imagine that Smith realizes the entailment..."]
+
+When Gettier says, "Each of these propositions is entailed by (f)," that might be puzzling. 
+
+It's not if you read, "Either...or..." as saying, "At least one..."
+
+prompt:
+[Read up to, "But now imagine further..."]
+
+Gettier says, "Smith is therefore completely justified in believing each of these three propositions. Smith, of course, has no idea where Brown is."
+
+Why is Smith completely justified in believing the three propositions, despite having no idea where Brown is?
+
+note:
+Because he's totally justified in believing (f), and it entails (g), (h), and (i), which he accepts on that basis.
+
+He's justified on the strength of (f) alone.
+
+prompt:
+[Read up to, "If these two conditions hold..."]
+
+So, again Smith starts out justified in believing a false proposition, but then it entails something which happens to be true, and Smith derives that true thing.
+
+prompt:
+[Read up to, "These two examples...]
+
+This seems like another clear case of justified true belief without knowledge.
+
+## Your own Gettier case
+
+prompt:
+Once you get the hang of it, it's quite easy to generate more such examples of your own.
+
+So take a stab at it yourself. Try to give your own example of a "Gettier case." That is, a case where someone has a justified true belief in a proposition, but yet fails to know that proposition.
+
 
