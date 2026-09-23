@@ -2,19 +2,32 @@
 ## PHIL-1 Lecture notes
 
 
-## What is Gettier arguing for?
+% ## What is Gettier arguing for?
+
+%prompt:
+%What is the main conclusion that Gettier argues for? How do you know? Is there a specific passage where he states his central thesis?
+
+%note:
+%Gettier says (pg.144), "I shall argue that (a) is false," where (a) refers to a thesis defined on the previous page.
+
+%Before we go any further, we should clarify what (a) is saying, and why someone might be tempted to accept it in the first place.
+
+%So let's go back (pg.133) to the intro to this whole section of the textbook.
+
+## Our central question - what is knowledge?
 
 prompt:
-What is the main conclusion that Gettier argues for? How do you know? Is there a specific passage where he states his central thesis?
+Knowledge is important. The books gives an example to illustrate how. What is it?
 
 note:
-Gettier says (pg.144), "I shall argue that (a) is false," where (a) refers to a thesis defined on the previous page.
+Evans doesn't know that the mushrooms he picked are poisonous. Almost dies.
 
-Before we go any further, we should clarify what (a) is saying, and why someone might be tempted to accept it in the first place.
+prompt:
+But what is knowledge? Under what conditions does one truly have it?
 
-So let's go back (pg.133) to the intro to this whole section of the textbook.
+This is the central question we want to examine. But first there is a way in which we have to clarify the question.
 
-## Our central question - propositional knowledge vs other kinds of knowledge
+## Clariying our central question - propositional knowledge vs other kinds of knowledge
 
 prompt:
 The textbook distinguishes between a few different kinds of knowledge. One is propositional knowledge. What is propositional knowledge? What is it that is known when one has propositional knowledge?
