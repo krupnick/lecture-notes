@@ -198,8 +198,26 @@ Their claim is that Smith's belief is not fully grounded, but he still knows.
 
 Supposely Smith's belief that the two mixtues create an explosion is not fully grounded because among his grounds are the statement that, "in all 10,000 experiments X was mixed with Y and an explosion resulted."
 
-That's clearly something Smith believes. But is it one of his grounds?
+That's clearly a false thing that Smith believes. But is it one of his grounds?
 
 Wouldn't he have come to believe the hypothesis way before the 10,000th trial? Did the extra trials beyond that somehow add to his confidence in the hypothesis?
 
+## The Barn County case
 
+prompt:
+In their Stanford Encyclopedia of Philosophy article on the analysis of knowledge, Ichikawa and Steup consider an analysis---which they call the no false lemmas analysis---which adds this fourth condition to the original three given by the traditional analysis:
+    argument:
+    (iv) S's belief that p is not inferred from any falsehood.
+This fourth condition is stated somewhat differently from how Clark states his own fourth condition. But it's meant to be similar enough that it's essentially equivalent. 
+
+Ichikawa and Steup then present the so-called Barn County case as a counterexample to the no false lemmas analysis, as they have defined it.
+
+prompt:
+[Read Barn County case]
+
+Is this case a counterexample to Clark's analysis?
+
+note:
+Arguably the subject's belief is not "fully grounded" in Clark's sense. 
+
+Maybe one of his grounds is something like, "That wouldn't look like a barn unless it was a barn," which is arguably false in this scenario. 
