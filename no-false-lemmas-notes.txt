@@ -163,7 +163,7 @@ But it's slightly awkward that in the dialogue that appears in the middle of the
 
 All the grounds given there are actually true.
 
-## Saunders and Champawat's first counterexample to Clark's analysis
+## Saunders and Champawat's counterexamples to Clark's analysis
 
 prompt:
 Saunders and Champawat write:
