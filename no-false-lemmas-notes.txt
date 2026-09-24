@@ -1,0 +1,205 @@
+#The No False Lemmas Analysis of Knowledge
+## PHIL-1 Lecture notes
+
+
+## Clark on Gettier's general recipe for constructing a counterexample
+
+prompt:
+Clark writes:
+    quote:
+    In his paper "Is Justified True Belief Knowledge?" Mr. Gettier provides two counter-examples which show that it need not be. In each case a proposition which is in fact true is believed on grounds which are in fact false (46).
+Why is it correct to say, about Gettier's first example, that, ``a proposition which is in fact true is believed on grounds which are in fact false''? Why is that also correct to say about Gettier's second example?
+
+note:
+First case: the man who will get the job has 10 coins in his pocket (true) is believed on the grounds that Jones is the man who will get the job, and Jones has 10 coins in his pocket (false)
+
+Second case: either Jones owns a Ford or Brown is in Barcelona (true) is believed on the grounds that Jones owns a Ford (false)
+
+prompt:
+Clark goes on:
+    quote:
+    Since the grounding proposition in each case entails the proposition it justifies (the conclusion), and the grounding proposition, although false, is justifiably believed, the conclusion is also justifiably believed.
+Clark seems to be describing, at least as he sees it, the general recipe that Gettier used to construct his examples of justified true belief without knowledge. What is that general recipe?
+
+note:
+Describe a case where someone justifiably believes something false, but that false thing entails something true, and the person comes to believe that true thing on that basis. They will then have a JTB but not knowledge.
+
+prompt:
+Clark continues:
+    quote: 
+    Gettier's examples are stronger than they need have been to prove his point. Grounds need not of course entail their conclusions in order to be good grounds.
+What's an example that would support Clark's statement that, "Grounds need not of course entail their conclusions in order to be good grounds"?
+
+note:
+Here you want to think of an example where a first thing is ``good grounds'' for a second thing, without entailing that second thing. 
+
+Example: that I have a sister is good grounds for that I have a friend, but it does not entail that.
+
+prompt:
+Clark goes on:
+    quote:
+    Cases can be devised in which true justified belief fails to be knowledge because a non-deductive ground is false.
+Clark is saying that we can use a slightly more general recipe to generate cases of JTB without knowledge than Gettier did. 
+
+Namely: describe a case where someone justifiably believes something false, but that false thing is good grounds for (without necessarily entailing) something true, and the person comes to believe that true thing on that basis.
+
+The case Clark is about to give is meant to fit this more general recipe.
+
+
+prompt:
+[Read from, "To adapt Gettier's second case..." up to, "It is not enough, however..."]
+
+What is the proposition that Smith has a justified true belief in, but does not know, according to Clark? 
+
+note:
+That Jones owns a Ford
+
+prompt:
+And why, according to Clark, does Smith fail to know that proposition?
+
+note:
+Because he believes it on false grounds.
+
+prompt:
+And what are the false grounds upon which Smith believes that Jones owns a Ford?
+
+note:
+The false grounds are supposed to be that Jones has always owned a Ford, has given Brown rides in one, always talks about his Ford with Brown, etc.
+
+Note that those don't *entail* that Jones currently owns a Ford. They are just very good grounds for that.
+
+prompt:
+In all cases so far, the subject starts with a false belief, and uses it to arrive at something true. Their ultimate belief is true (and justified) but their grounds for it are false. 
+
+Perhaps that's the key. Knowledge cannot arise from false grounds. We might add that as a further necessary condition to the original 3. 
+
+## Clark's initial proposal and his reason for rejecting it
+
+prompt:
+Clark considers amending the traditional analysis by adding this fourth condition to the original three:
+    argument:
+    (iv) it is on true grounds that S believes that p.
+But Clark says that this still does not yield an adequate analysis of knowledge.
+
+Even with that fourth condition, the conditions listed are still not sufficient for knowledge.
+
+prompt:
+Clark gives this example in support of his point:
+    quote:
+    For consider this further adaptation of the example. It is true that Jones always owned a Ford and he still does. Brown, who is known by Smith to be generally reliable and honest, tells Smith that Jones has always owned one. But, in fact, Brown knows nothing about Jones or his Ford; he has just invented what he tells Smith (an act quite out of character), and he happens by chance to be right. Now Smith's belief is not only true and justified, but the grounds on which he holds his belief are true. Yet Brown's wild guess can hardly be regarded as providing Smith knowledge merely because it happens to be right.
+When Clark says, ``Now Smith's belief is not only true and justified, but the grounds on which he holds his belief are true,'' what belief of Smith's is Clark talking about?
+
+note:
+He's talking about Smith's belief that Jones owns a Ford.
+
+prompt:
+And why does Clark say that the grounds on which Smith holds that belief are true?
+
+note:
+Clark seems to be thinking of Smith's grounds for that belief as: Jones has always owned a Ford. That is true, in this amended version of the example.
+
+prompt:
+Clark says, "Yet Brown's wild guess can hardly be regarded as providing Smith knowledge merely because it happens to be right."
+
+So, Clark is saying, Smith fails to know in this case that Jones owns a Ford, even though he has a JTB in that proposition, *and* it is on true grounds that Smith has that belief.
+
+## Clark's final analysis
+
+prompt:
+Clark goes on:
+    quote:
+    In this case, then, the grounds on which Smith believes (1) [that Jones owns a Ford] are true, but the grounds on which he accepts these grounds, viz. that Brown knows them, are false.
+So, just to be clear, according to Clark, what are Smith's grounds for believing that Jones owns a Ford? And what, according to Clark, are Smith's grounds for those grounds?
+
+note:
+Smith's grounds for believing that Jones owns a Ford are that Jones has always owned a Ford (which is true); and his grounds for believing that---that Jones has always owned a Ford---are that Brown knows that Jones has always owned a Ford (which is false).
+
+prompt:
+So, for Clark, there are on the grounds on which you believe something, and then there are the grounds you have for believing those grounds, and the grounds you have for believing those grounds, and so on and so forth.
+
+We might speak of first-order grounds, second-order grounds, third-order grounds, and so on.
+
+prompt:
+[Read from, "Very often we can go on for quite some time asking why..." up to, "It might be thought that..."]
+
+So Clark ultimately proposes that amending the traditional analysis  by adding this fourth condition yields a correct analysis of knowledge:
+    argument: 
+    (iv') S's belief that p is fully grounded.
+What does it mean to say that a person's belief is ``fully grounded''?
+
+note:
+All their grounds are true (first order grounds, second order grounds, and so on).
+
+## Initial testing of Clark's analysis
+
+prompt:
+What does Clark's analysis imply about the examples that we have looked at so far? Does it give the correct results in all of those cases?
+
+prompt:
+What about Gettier's two cases? What is the correct result in those cases?
+
+note:
+That Smith fails to know.
+
+prompt:
+And does Clark's proposed analysis have that implication?
+
+note:
+Yes. Because in Gettier's cases Smith's belief is not fully grounded.
+
+prompt:
+What about in Clark's first case? Does Clark's analysis give the correct result?
+
+note:
+Yes. Smith's belief is not fully grounded there either. One of his grounds is false, namely, that Jones has always owned a Ford.
+
+prompt:
+What about Clark's second case? 
+
+note:
+Well it's supposed to be that Smith's belief that Jones owns a Ford is not fully grounded in this case because one ground in the chain is that Brown knows that Jones has always owned a Ford, etc., which is false.
+
+But it's slightly awkward that in the dialogue that appears in the middle of the page which is supposed to illustrate what Smith's chain of grounds might be, the "Brown knows..." claim does not appear.
+
+All the grounds given there are actually true.
+
+## Saunders and Champawat's first counterexample to Clark's analysis
+
+prompt:
+Saunders and Champawat write:
+    quote:
+    We wish in turn...to provide counterexamples to Mr.Clark's definition, using the first (A) to show that Clark's definition is too weak, and the second (B) to show that it is too strong.
+
+Too weak means that it is too permissive with what it counts as knowledge. There are cases where it would say someone has knowledge when they really do not.
+
+Too strong means that it is too restrictive with what it counts as knowledge. There are cases where it would deny that someone has knowledge when really they do have it.
+
+prompt:
+[Read case A]
+
+Does this example succeed in showing that Clark's analysis is incorrect?
+
+note:
+Their claim is that Smith has JTB and his belief is fully grounded, but he does not know.
+
+Intuitively, though, aren't some of Smith's grounds for believing that Jones owns a Ford false in this example?
+
+In particular, isn't one of Smith's grounds for believing that Jones owns a Ford something like, "He owns the same car he did yesterday"?
+
+Is his belief really fully grounded?
+
+prompt:
+[Read case B]
+
+Does this example succeed in showing that Clark's analysis is incorrect?
+
+note:
+Their claim is that Smith's belief is not fully grounded, but he still knows.
+
+Supposely Smith's belief that the two mixtues create an explosion is not fully grounded because among his grounds are the statement that, "in all 10,000 experiments X was mixed with Y and an explosion resulted."
+
+That's clearly something Smith believes. But is it one of his grounds?
+
+Wouldn't he have come to believe the hypothesis way before the 10,000th trial? Did the extra trials beyond that somehow add to his confidence in the hypothesis?
+
+
