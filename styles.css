@@ -3,8 +3,8 @@
   --ink: #241f1c;
   --ink-soft: #746b5e;
   --rule: #ddd1b8;
-  --prompt: #8a2d22;
-  --prompt-bg: #f7e9e6;
+  --prompt: #b5832a;
+  --prompt-bg: #fbf5e6;
   --note: #55606b;
   --note-bg: #eef0f1;
 }
@@ -125,10 +125,9 @@ h1 {
 
 /* Block quotes that appear inside notes or prompts */
 .blockquote {
-  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
-  font-size: 0.98rem;
-  font-style: italic;
-  line-height: 1.6;
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  line-height: 1.55;
 }
 
 .blockquote p {
