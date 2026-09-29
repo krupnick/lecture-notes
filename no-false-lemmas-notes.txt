@@ -169,10 +169,21 @@ prompt:
 Saunders and Champawat write:
     quote:
     We wish in turn...to provide counterexamples to Mr.Clark's definition, using the first (A) to show that Clark's definition is too weak, and the second (B) to show that it is too strong.
+What does it mean to show that his definition is too weak? Too strong?
 
+note:
 Too weak means that it is too permissive with what it counts as knowledge. There are cases where it would say someone has knowledge when they really do not.
 
 Too strong means that it is too restrictive with what it counts as knowledge. There are cases where it would deny that someone has knowledge when really they do have it.
+
+These are the two basic ways to object to an analysis.
+
+Response to the first objection is: conditions of my analysis are not actually met, or the subject really does have knowledge.
+
+Response to the second objection is: conditions of my analysis are met, or the subject does not actually have knowledge.
+
+prompt:
+[Have students read both, and think about them on their own (5mins); then pair off and discuss (5mins); then share out]
 
 prompt:
 [Read case A]
@@ -192,6 +203,7 @@ prompt:
 [Read case B]
 
 Does this example succeed in showing that Clark's analysis is incorrect?
+
 
 note:
 Their claim is that Smith's belief is not fully grounded, but he still knows.
@@ -215,6 +227,12 @@ Ichikawa and Steup then present the so-called Barn County case as a counterexamp
 prompt:
 [Read Barn County case]
 
+Is this example meant to show that Clark's analysis is too weak, or to strong?
+
+note:
+Too weak. It lets too much count as knowledge. In this case, the argument is, the conditions of the analysis are satisfied, but the subject does not have knowledge.
+
+prompt:
 Is this case a counterexample to Clark's analysis?
 
 note:
