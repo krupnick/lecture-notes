@@ -1,0 +1,27 @@
+#Cartesian Skepticism
+## PHIL-1 Lecture notes
+
+
+## Setting the stage
+
+prompt:
+On the face of it, we know a lot. 
+
+Someone give me some easy examples of things that you know.
+
+note:
+I know that CA is a state; that Sacramento is the capital; that the GSW are a basketball; that dinosaurs once existed; that there will be some airplane flights from SFO to Newark later today; and so on.
+
+prompt:
+Yet there are also some seemingly very compelling reasons for saying the opposite---that we know essentially nothing about the world.
+
+What are these seemingly compelling reasons for saying that we don't know anything?
+
+You probably have encountered them 
+
+
+prompt:
+Philosophers are trying to figure out what is going on here. 
+
+
+%Have students read through Descartes passages? 
