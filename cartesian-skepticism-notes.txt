@@ -2,7 +2,7 @@
 ## PHIL-1 Lecture notes
 
 
-## Setting the stage
+## Our central question
 
 prompt:
 On the face of it, we know a lot. 
@@ -10,18 +10,33 @@ On the face of it, we know a lot.
 Someone give me some easy examples of things that you know.
 
 note:
-I know that CA is a state; that Sacramento is the capital; that the GSW are a basketball; that dinosaurs once existed; that there will be some airplane flights from SFO to Newark later today; and so on.
+I know that CA is a state; that Sacramento is the capital; that the GSW are a basketbal team; that dinosaurs once existed; that there will be some airplane flights from SFO to Newark later today; and so on.
 
 prompt:
-Yet there are also some seemingly very compelling reasons for saying the opposite---that we know essentially nothing about the world.
+Yet there are also some compelling reasons for saying the opposite---that we know essentially nothing about the world.
 
-What are these seemingly compelling reasons for saying that we don't know anything?
+What are those reasons?
 
-You probably have encountered them 
-
+Well, what if all of this is some grand illusion? How could I ever rule out that possibility? It doesn't seem like I can. But if I'm conceding that this might all be some grand illusion, then I'm thereby conceding that I *don't* know what's really going on in the world.
 
 prompt:
-Philosophers are trying to figure out what is going on here. 
+What is going on here? Do we know all sorts of things, or do we know essentially nothing? 
+
+This will be our central question for the next few modules.
+
+Does anyone want to say now where there initial sympathies lie?
+
+note:
+Give a couple of students a chance to say which view they think is correct.
+
+## Descartes's Meditation 1 as a locus classicus for skeptical reasoning
+
+prompt:
+The default view is that we know a lot. That's the view that takes no special insight or careful thought. It's common sense.
+
+Arriving at the skeptical view takes some amount of persuasion. Someone has to lay out the argument for you. 
+
+So it makes sense to examine the reasons for skepticism. What are they exactly? Do they hold up under scrutiny?
 
 
 %Have students read through Descartes passages? 
