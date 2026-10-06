@@ -38,5 +38,44 @@ Arriving at the skeptical view takes some amount of persuasion. Someone has to l
 
 So it makes sense to examine the reasons for skepticism. What are they exactly? Do they hold up under scrutiny?
 
+prompt:
+Here is where we turn to Descartes.
+
+In the first Meditation of his Meditations on First Philosophy, he gives some now classic arguments for skepticism.
+
+prompt:
+[Read from "Some years ago..." up to, "But the task looked an enormous one..."]
+
+So what does Descartes say is his goal here? What is motivating him?
+
+note:
+He wants to establish something in the sciences that is, "stable and likely to last."
+
+So there is a positive end goal here.
+
+prompt:
+[Read from, "But the task looked an enormous one..." up through rest of paragraph]
+
+prompt:
+[Read first sentence of next paragraph "But to accomplish this..."]
+
+What would it mean to show that, "all my opinions are false"? What would be an example?
+
+note:
+Show that it's not true that CA is a state; that it's not true that Sacramento is the capital of CA; that dinosaurs never existed; and so on...
+
+prompt:
+So his aim is not to show that all of his opinions are false. That's not what he is going for.
+
+What then is his aim?
+
+prompt:
+[Read, "Reason now leads me to think..." up to "And to do this..."]
+
+
+
+
+
+
 
 %Have students read through Descartes passages? 
