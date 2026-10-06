@@ -57,25 +57,247 @@ prompt:
 [Read from, "But the task looked an enormous one..." up through rest of paragraph]
 
 prompt:
-[Read first sentence of next paragraph "But to accomplish this..."]
+[Read from "But to accomplish this..." up to, "And to do this..."]
 
-What would it mean to show that, "all my opinions are false"? What would be an example?
+Descartes draws a contrast here. He is not going to, "show that all my opinions are false." He is going to, "find in each of them at least some reason for doubt."
+
+In your own words, what is the contrast that he is drawing there? What is the difference between those two things?
 
 note:
-Show that it's not true that CA is a state; that it's not true that Sacramento is the capital of CA; that dinosaurs never existed; and so on...
+Showing that all my opinons are false would mean showing that it's not true that CA is a state; that it's not true that Sacramento is the capital of CA; that dinosaurs never existed; and so on...
+
+Showing that there is at least some reason for doubt in each case is to show that it might not be the case the CA is a state; it might not be that Sacramento is the capital of CA; it might not be the case that Dinosaurs once existed; and so on...
+
+It's the difference between showing that something isn't the case, and showing that it *might* not be the case.
+
 
 prompt:
-So his aim is not to show that all of his opinions are false. That's not what he is going for.
-
-What then is his aim?
+[Read from, "And to do this..." through the rest of that paragraph.]
 
 prompt:
-[Read, "Reason now leads me to think..." up to "And to do this..."]
+[Read from, "Whatever I have up till now accepted as most true..." through the end of that paragraph]
+
+What does he mean by "the senses"?
+
+note:
+Sight, hearing, touch, etc.
+
+prompt:
+And what would be the upshot of the little argument he makes here?
+
+"From time to time I have found that the senses deceive, and it is prudent *never* to trust completely those who have deceived us *even once*."
+
+note:
+That I shouldn't be certain of *anything* I believe on the basis of my senses.
+
+prompt:
+[Read from, "Yet although the senses occasionally deceive us..." up to, "Unless perhaps..."]
+
+So now what is Descartes saying about beliefs that are derived from the senses? Is it different from what he said in the previous paragraph?
+
+note:
+Now he's saying that while it makes sense to be less than certain about *some* beliefs derived through the senses, about others, "doubt is quite impossible."
+
+So Descartes is kind of arguing back and forth with himself here. This is a style he uses.
+
+prompt:
+[Read from, "Unless perhaps I were to liken myself to madmen..." up to, "But such people..."]
+
+What possibility is Descartes raising here? 
+
+note:
+That's he's gone mad/insane
+
+prompt:
+In the examples he gives, the madmen believe, "they are kings when they are paupers, or say they are dressed in purple when they are naked." So they are radically mistaken.
+
+What is Descartes suggesting that he might be radically mistaken about due to some kind of madness?
+
+note:
+That he is here, sitting by the fire, wearing a winter dressing gown, holding this piece of paper in my hands, and so on.
+
+prompt:
+So the possibility he is raising is that he is *not* sitting by the fire, wearing his winter dressing gown, etc. but is instead...? What?
+
+note:
+Maybe in a mental institution somewhere, suffering from a delusion/hallucination?
+
+prompt:
+[Read from, "But such people are insane..." through the end of the paragraph]
+
+So this possibility that he has just raised, what is he saying about that possibility here?
+
+note:
+He's dismissing it. He doesn't need to worry about that. 
+
+prompt:
+[Read from, "A brilliant piece of reasoning!..." up to, "Yet at the moment"]
+
+What possibility is Descartes raising here?
+
+note:
+That he is merely *dreaming* that he is here sitting by the fire, in his dressing gown. In fact, he is lying undressed in bed.
+
+prompt:
+And that, "A brilliant piece of reasoning!" is it sincere or sarcastic?
+
+note:
+It's sarcastic
+
+prompt:
+So what is he criticizing then? What is he saying was not actually brilliant?
+
+note:
+His quick dismissal of the possiblity that he is suffering from a delusion/hallucination. 
+
+Maybe the possiblity that he is literally insane/mad can be dismissed.
+
+But there is a possiblity quite nearby that doesn't seem like it can be dismissed so easily---that he is dreaming.
+
+prompt:
+[Read from, "Yet at the moment my eyes are certainly awake..." up to, "Indeed!"]
+
+So what's he saying here about the possibility that he is merely dreaming?
+
+note:
+That he can rule it out.
+
+prompt:
+[Read from, "Indeed!" up through the rest of the paragraph.]
+
+Now what attitude is he expressing about the possibility that he is dreaming?
+
+note:
+That he cannot rule it out. 
+
+## The dreaming argument
+
+prompt:
+Once you concede that point---that you cannot rule out the possibility that you are dreaming---then skeptical conclusions start flowing.
+
+Why?
+
+note:
+Because if I *might* be dreaming, then I don't *know* that this is real.
+
+prompt:
+We might spell out the argument like this.
+    argument:
+    (1) You don't know that the dreaming hypothesis is wrong.
+    (2) If you don't know that the dreaming hypothesis is wrong, then you don't know that you are sitting at a desk, wearing normal daytime clothes, and so on.
+    So: (3) You don't know that you are sitting at a desk, wearning normal daytime clothes, and so on.
+
+prompt:
+What's the motivation for (1)?
+
+note:
+The idea is that everything would seem exactly the same to you. There's nothing you can point to that decisively rules out the dreaming hypothesis. 
+
+prompt:
+What's the motivation for (2)?
+
+note:
+Certainty that I am here, sitting at a desk, wearing normal clothes would imply certainty that the dreaming hypothesis is wrong, because they are incompatible view points. 
+
+So if I don't have knowledge that the dreaming hypothesis is wrong, I can't have knowledge that I am sitting here, etc.
+
+prompt:
+So the dreaming argument has something going for it.
+
+## More radical possibilities leading to even more radical skeptical conclusions
 
 
+prompt:
+The dreaming hypothesis posits that something quite unusual is going on---an incredibly vivid dream. But the world is otherwise normal. What you are mistaken about is ultimately quite limited.
 
+But we could envision even more radical possibilities.
 
+prompt:
+Descartes famously invokes the possibility of an evil demon deceiving him.
 
+[Read from, "I will suppose therefore that not God..." up to, "I shall stubbornly.."]
 
+Call that the evil demon hypothesis.
 
-%Have students read through Descartes passages? 
+prompt:
+The same reasons that would lead you to say that you cannot rule out the dreaming hypothesis would also lead you to concede that you cannot rule out the evil demon hypothesis.
+
+prompt:
+So if you think the dreaming argument works, then it seems like you should think that the evil demon argument works too.
+    argument:
+    (1) You don't know that the demon hypothesis is wrong.
+    (2) If you don't know that the demon hypothesis is wrong, then you don't know that you are sitting at a desk, wearing normal daytime clothes, and so on; nor do you know that there is an earth at all, that you have a body or hands, and so on.
+    So: (3) You don't know any of those things.
+
+prompt:
+Sometimes the demon hypothesis is replaced with the brain-in-a-vat hypothesis.
+
+## Two potential reactions to the argument, both with problems
+
+prompt:
+Here are two potential reactions to the evil demon argument:
+    quote:
+     It is sound. It simply reminds us of a fairly obvious truth---that we don't really *know* anything about the external world---that we typically ignore or don't bother to think about.
+    
+    quote:
+    It is unsound. The conclusion is absurd---of course we know things about the world---and so the argument clearly has something wrong with it, even if there is something tempting about it.
+
+Which of these two reactions is yours?
+
+prompt:
+Both sides seem problematic.
+
+For those who take the second view: what is the problem with the argument?
+
+prompt:
+For those who take the first view: really? We don't know anything about what the world is like?
+
+Anyone who truly adopted that view would talk and act a lot differently than we all normally do. 
+
+prompt:
+First, we often claim to know or have certainty. It would often be absurd to deny it. ("I don't know that I have my swimsuit in the bag" "Well check again!" "I did. But I still don't know.")
+
+prompt:
+Second, asserting *anything* about the world---"My phone is in my room," "I already ate dinner," "It's hot outside"---seems to imply that you take yourself to know that thing to be true.
+
+So if you truly took yourself not to know anything about the world, you would refrain from outright asserting anything about the world. 
+
+All of your assertions would be hedged or qualified assertions of the form "Probably..." or, "It seems to me that..." or "My sense is..." or the like. But no one goes around talking like that.
+
+## Expanding on the point about knowledge being a norm of assertion
+
+prompt:
+Consider these claims:
+    quote:
+    It's raining, but I don't know that it's raining.
+    quote:
+    Your keys are in the kitchen, but I don't know whether they are.
+These sound absurd right?
+
+note:
+Correct
+
+prompt:
+But why? Note that it's possible for both claims to be true. (This is known as Moore's Paradox)
+
+A compelling explanation: asserting "It's raining" represents me as *knowing* that it's raining, and the second clause takes that back.
+
+prompt:
+You ask a coworker, "Is the pharmacy open on Sundays?" She says, "Yes, it is." You drive there, and it's open. Later you learn she had no idea and just said yes. Even though she was right, it seems you can fairly complain: "You shouldn't have told me that if you didn't know!"
+
+prompt:
+Suppose a lawyer asks, "Was the defendant at the bar that night?" The witness says, "Yes, he was there."
+
+If the witness later admits "Honestly, I wasn't sure," they've misled the court. 
+
+They should have hedged their testimony, in that case. 
+
+prompt:
+When you don't know, you hedge your assertion. 
+
+A tourist asks you for directions in a city you've visited once. You don't say "The museum is two blocks left." You say "I think it's left, but don't quote me" or "I'm not from here, but maybe try left?"
+
+When people are aware they don't know, they spontaneously retreat from outright assertion to hedged forms like "I think," "probably," "it seems," or "my guess is."
+
+prompt:
+So if you truly accepted skepticism about the external world, not only would you never claim to know anything, you really wouldn't make *any* outright assertions about the world.
