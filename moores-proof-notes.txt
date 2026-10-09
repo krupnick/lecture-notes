@@ -1,7 +1,7 @@
 #Moore's Proof
 ## PHIL-1 Lecture notes
 
-## The promise and disappointment of Moore's article
+## The central question before us
 
 prompt:
 We have this argument:
@@ -14,10 +14,10 @@ This argument is either sound or unsound. But which is it?
 note:
 Ask for show of hands.
 
+## Moore says he will prove the existence of things outside of us
+
 prompt:
 Now we have this article from G.E. Moore. It's titled "Proof of an External World."
-
-%Just a brief aside about GE Moore. He embodies a certain approach to philosophy. Not it's job to reveal profound truths that the ordinary person doesn't see. Rather, it's job is to defend and explain the common sense, ordinary world view. It's job is to prevent people from slipping into the kind of confusions that make them conclude that time is unreal, or we know nothing, or the greatest of all conceivable beings must exist, etc.
 
 prompt:
 When we talk about proving that there is an external world, or proving "the existence of things outside of us" as Moore puts it, what does that mean? 
@@ -52,19 +52,26 @@ It sounds like he is going to provide us with all the ammunition we need to cast
 But for most people the article turns out to be spectacularly disappointing, at least at first. 
 
 
-
-
-## Moore's proof
+## How Moore purports to prove the existence of things outside of us
 
 prompt:
-And why is it disappointing? 
+The disappointment has to do with how Moore purports to prove the existence of external things. 
 
-Well, how does Moore purport to prove the existence of external things?
+Which is how?
 
 note:
 See the first full paragraph, pg.303.
     quote:
     It seems to me that, so far from its being true, as Kant declares to be his opinion, that there is only one possible proof of the existence of things outside of us, namely, the one which he has given, I can now give a large number of different proofs, each of which is a perfectly rigorous proof; and that at many other times I have been in a position to give many others. I can prove now, for instance, that two human hands exist. How? By holding up my two hands, and saying, as I make a certain gesture with the right hand, "Here is one hand," and adding, as I make a certain gesture with the left, "and here is another." And if, by doing this, I have proved *ipso facto* the existence of external things, you will all see that I can also do it now in numbers of other ways: there is no need to multiply examples. 
+
+prompt:
+So what is Moore's proof of the existence of things outside of us?
+
+note:
+    argument:
+    (1) Here's one hand, and here's another.
+    So:(2) Two human hands exist.
+
 
 prompt:
 Moore says that, "there is no need to multiply examples." But, just to check your understanding, it might be helpful to try producing an example of your own.
@@ -80,8 +87,64 @@ What about one not involving body parts? A little more distant from what Moore l
 note:
 There is a black pen in this bag; there is a red pen in this bag; so there are two pens in this bag; so there exist at least two pens.
 
+## Why Moore's proof is disappointing; what a true proof would look like
+
 prompt:
-At this point, most people feel that Moore has way underdelivered on the promise of his title.
+At this point, most people feel that Moore hasn't delivered on the promise of his title. He hasn't really proven the existence of things outside of us. 
+
+prompt:
+But why might someone feel that way? What is missing? What more would Moore have to do in order to truly prove the existence of things outside of us?
+
+note:
+Prove his premise?
+
+prompt:
+What if Moore then responded by saying: "Ok, no problem. I will prove my premise. What grounds do I have for saying that there's a hand here? Well, there's a left hand here. So there's a hand here. So a human hand exists."
+    argument:
+    (1) Here's a left hand.
+    So (2) Here's a hand.
+    So (3) A human hand exists.
+
+prompt:
+Why wouldn't that count as proving his premise? What would he have to do to truly prove his premise that here's a hand?
+
+prompt:
+What if Moore were to argue like this?
+    argument:
+    (1) It looks to me as if there's a hand here.
+    (2) If it looks to me as if there's a hand here, then there must really be a hand here.
+    So: (3) There's a hand here.
+If he could prove (2), would that work?
+
+note:
+Yes
+
+prompt:
+And what if he were to try prove (2) by saying, "I just went to get my vision checked at the doctor's office, and everything checked out"?
+
+Would that work? If not, why not?
+
+note:
+The visit to the doctor's office could itself be part of an illusion or dream. He can't just *assert* that he went there and everything checked out.
+
+prompt:
+So what sorts of claims is Moore allowed to make in his attempt to prove his premise?
+
+note:
+Just claims about how things look or seem to him. (And maybe "self-evident" truths as well).
+
+prompt:
+So, for those who were hoping for something more, a *true proof* would start just from claims about how things look or appear (plus self-evident truths).
+
+## Moore's concession
+
+
+%Moore concedes that he can't give the sort of argument his opponents want;
+%But why is that necessary for proving that two human hands exist? It's because they think that only then would he count as knowing his premise to be true. If they were willing to grant him knowledge of his premise without that, then they would admit that he already has a perfectly good proof.
+%But why think that this sort of argument is necessary for knowing his premise? All knowledge has to start from the inside? But why accept that?
+
+%Change short answer questions?
+
 
 prompt:
 But Moore is no fool. He's aware that his attempted proof will strike many as unsatisfactory. He writes:
@@ -205,3 +268,6 @@ prompt:
 The assumption that is really doing the work builds in an idea about where knowledge starts.
 
 It starts from the inside. With how things look or seem to us. 
+
+
+%Just a brief aside about GE Moore. He embodies a certain approach to philosophy. Not it's job to reveal profound truths that the ordinary person doesn't see. Rather, it's job is to defend and explain the common sense, ordinary world view. It's job is to prevent people from slipping into the kind of confusions that make them conclude that time is unreal, or we know nothing, or the greatest of all conceivable beings must exist, etc.
