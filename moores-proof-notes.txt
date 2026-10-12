@@ -14,7 +14,7 @@ This argument is either sound or unsound. But which is it?
 note:
 Ask for show of hands.
 
-## Moore says he will prove the existence of things outside of us
+## What to prove to thereby prove the existence of things outside of us
 
 prompt:
 Now we have this article from G.E. Moore. It's titled "Proof of an External World."
@@ -47,9 +47,9 @@ So if we can prove those things, then we could prove that the demon hypothesis i
 prompt:
 So Moore's paper sounds so ambitious, so exciting! 
 
-It sounds like he is going to provide us with all the ammunition we need to cast aside possibilities like the demon hypothesis once and for all.
+It sounds like he is going to provide us with all the ammunition we need in order to say that line (1) in the demon argument is false.
 
-But for most people the article turns out to be spectacularly disappointing, at least at first. 
+But for most people Moore's article turns out to be spectacularly disappointing, at least at first. 
 
 
 ## How Moore purports to prove the existence of things outside of us
@@ -57,12 +57,27 @@ But for most people the article turns out to be spectacularly disappointing, at 
 prompt:
 The disappointment has to do with how Moore purports to prove the existence of external things. 
 
-Which is how?
-
-note:
-See the first full paragraph, pg.303.
+prompt:
+So let's read.
     quote:
-    It seems to me that, so far from its being true, as Kant declares to be his opinion, that there is only one possible proof of the existence of things outside of us, namely, the one which he has given, I can now give a large number of different proofs, each of which is a perfectly rigorous proof; and that at many other times I have been in a position to give many others. I can prove now, for instance, that two human hands exist. How? By holding up my two hands, and saying, as I make a certain gesture with the right hand, "Here is one hand," and adding, as I make a certain gesture with the left, "and here is another." And if, by doing this, I have proved *ipso facto* the existence of external things, you will all see that I can also do it now in numbers of other ways: there is no need to multiply examples. 
+    It seems to me that, so far from its being true, as Kant declares to be his opinion, that there is only one possible proof of the existence of things outside of us, namely, the one which he has given, I can now give a large number of different proofs, each of which is a perfectly rigorous proof; and that at many other times I have been in a position to give many others (303). 
+Here Moore references Kant. Kant is his foil, his opposite, in this article.
+
+prompt:
+Moore starts his article with this quote from Kant:
+    quote:
+    It still remains a scandal to philosophy...that the existence of things outside of us...must be accepted merely *on faith*, and that, if anyone thinks good to doubt their existence, we are unable to counter his doubts by any satisfactory proof (301).
+For Kant, proving the existence of things outside of us is a kind of monumental task, which only he himself as been able to accomplish.
+
+prompt:
+Moore doesn't think that Kant actually succeded.
+    quote:
+    I think it is by no means certain that Kant's proof is satisfactory. I think it is by no means certain that he did succeed in removing once [and] for all the state of affairs which he considered to be a scandal to philosophy. And I think, therefore, that the question whether it is possible to give *any* satisfactory proof of the point in question still deserves discussion (302).
+
+prompt:
+Now let's go back to the passage where Moore gives his proof.
+    quote:
+    It seems to me that, so far from its being true, as Kant declares to be his opinion, that there is only one possible proof of the existence of things outside of us, namely, the one which he has given, I can now give a large number of different proofs, each of which is a perfectly rigorous proof; and that at many other times I have been in a position to give many others. I can prove now, for instance, that two human hands exist. How? By holding up my two hands, and saying, as I make a certain gesture with the right hand, "Here is one hand," and adding, as I make a certain gesture with the left, "and here is another." And if, by doing this, I have proved *ipso facto* the existence of external things, you will all see that I can also do it now in numbers of other ways: there is no need to multiply examples (303). 
 
 prompt:
 So what is Moore's proof of the existence of things outside of us?
@@ -106,7 +121,9 @@ What if Moore then responded by saying: "Ok, no problem. I will prove my premise
     So (3) A human hand exists.
 
 prompt:
-Why wouldn't that count as proving his premise? What would he have to do to truly prove his premise that here's a hand?
+Presumably if you were someone who felt that Moore needed to prove his premise, that wouldn't satisfy you.
+
+But why not? What would Moore have to do to truly prove his premise that here's a hand?
 
 prompt:
 What if Moore were to argue like this?
@@ -114,7 +131,9 @@ What if Moore were to argue like this?
     (1) It looks to me as if there's a hand here.
     (2) If it looks to me as if there's a hand here, then there must really be a hand here.
     So: (3) There's a hand here.
-If he could prove (2), would that work?
+And he could go on to prove (2). Would that work?
+
+Proving the reliability of his perceptual faculties is what is wanted?
 
 note:
 Yes
@@ -128,146 +147,79 @@ note:
 The visit to the doctor's office could itself be part of an illusion or dream. He can't just *assert* that he went there and everything checked out.
 
 prompt:
-So what sorts of claims is Moore allowed to make in his attempt to prove his premise?
+So what sorts of claims is Moore allowed to make in his attempt to prove his premise, according to those who want him to do that?
 
 note:
-Just claims about how things look or seem to him. (And maybe "self-evident" truths as well).
+Just claims that he could still trust to be true even if this were a grand illusition.
+
+So claims about how things look or seem to him. (And maybe "self-evident" truths as well).
 
 prompt:
 So, for those who were hoping for something more, a *true proof* would start just from claims about how things look or appear (plus self-evident truths).
 
-## Moore's concession
+## Moore's concessions
+
+prompt:
+Moore concedes that he cannot do what his opponents want him to do. He cannot give an argument that *they* would regard as a proof of his premise.
+    quote:
+    [I]f I had proved the propositions which I used as *premisses* ...then they would perhaps admit that I had proved the existence of external things, but, in the absence of such a proof (which, of course, I have neither given nor attempted to give), they will say that I have not given what they mean by a proof of the existence of external things. In other words, they want a proof what I assert *now* when I hold up my hands and say, "Here's one hand and here's another"...Of course, what they really want is not merely a proof of these two propositions, but something like a general statement as to how *any* propositions of this sort may be proved. This, of course, I haven't given; and I do not believe it can be given: if this is what is meant by proof of the existence of external things, I do not believe that any proof of the existence of external things is possible.
 
 
-%Moore concedes that he can't give the sort of argument his opponents want;
-%But why is that necessary for proving that two human hands exist? It's because they think that only then would he count as knowing his premise to be true. If they were willing to grant him knowledge of his premise without that, then they would admit that he already has a perfectly good proof.
-%But why think that this sort of argument is necessary for knowing his premise? All knowledge has to start from the inside? But why accept that?
+note:
+When Moore says, "what they really want is not merely a proof of these two propositions, but something like a general statement as to how *any* propositions of this sort may be proved," he's acknowledging that the, "Here's a left hand; so, here's a hand" argument wouldn't work on his opponents.
+
+prompt:
+Note only does Moore concede that he cannot give an argument that *his opponents would regard as a proof* of his premise, he just concedes outright that he cannot prove his premise.
+
+[Read from "Of course, in some cases..." through rest of paragraph]
+
+
+prompt:
+Let's flag that second concession. Not clear it's the right move. So we will come back to it.
+
+
+## "I can know things, which I cannot prove"
+
+prompt:
+Moore concedes that he cannot prove his *premise*. But he doesn't think that this prevents it from being the case that he has proven that two human hands exist.
+
+prompt:
+Why not? Because he only needs to prove his premise if doing so is necessary for knowing that premise to be true. 
+
+And, he says, proving his premise is not necessary for knowing it to be true. 
+
+He says, "I can know things, which I cannot prove; and among things which I certainly did know, even if (as I think) I could not prove them, were the premisses of my two proofs."
+
+## Where does this leave us?
+
+prompt:
+So Moore's final position is: I know my premise (even though I cannot prove it). Therefore, I succeded in proving that two human hands exist. And hence I succeeded in proving the existence of things outside of us.
+
+prompt:
+Is this helpful for responding to the demon argument?
+
+It seems like the response that Moore would recommend is: I know that I have hands. So I know I'm not a BIV, or a non-physical being deceived by an evil demon.
+
+Which doesn't seem supersatisfying.
+
+It also conflicts with what he says about not being able to prove that he is not dreaming. 
+
+## But should Moore have conceded that he cannot prove his premise?
+
+prompt:
+What if Moore had just conceded that he cannot give an argument which his *opponent would regard as a proof of his premise*, but then asked: ok, but why is that necessary for proving my premise?
+
+I say, "Here's a left hand; so here's a hand," would be a perfectly good proof of my premise; you say I have to give an argument that traces back to seemings and self-evident truths. Why is that necessary?
+
+prompt:
+You would only think that that was necessary if you thought that all knowledge had to start from there.
+
+But why think that?
+
+The same thought lies behind line (1) of the demon argument.
+
 
 %Change short answer questions?
-
-
-prompt:
-But Moore is no fool. He's aware that his attempted proof will strike many as unsatisfactory. He writes:
-    quote: 
-    But did I prove just now that two human hands were then in existence? I do want to insist that I did; that the proof which I gave was a perfectly rigorous one; and that it is perhaps impossible to give a better or more rigorous proof of anything whatever.
-
-prompt:
-To answer the question of whether he's proven what he says he has proven, we should consider: what counts as a proof?
-
-## What counts as giving a proof? Moore's three conditions
-
-prompt:
-Moore says:
-    quote:
-    Of course, it would not have been a proof unless three conditions were satisified.
-What are the three conditions that Moore says have to be satisfied in order to successfully give a proof?
-
-[Read passage]
-
-note:
-the premise is different from the conclusion; he knows the premise; the premise entails the conclusion
-
-prompt:
-Moore says that, "all these three conditions were in fact satisfied by my proof."
-
-[Read passage]
-
-prompt:
-Is anything else needed for giving a proof? Moore writes:
-    quote:
-    My proof, then, of the existence of things outside of us did satsify three of the conditons necessary for a rigorous proof. Are there any other conditions necessary for a rigorous proof, such that perhaps it did not satisfy one of them?
-Maybe, but it really does not seem like it. Meeting the three conditions seems *sufficient* for giving a proof.  
-
-In other cases we seem to regard meeting these conditions as sufficient. 
-
-## But you have to prove your premise first
-
-prompt:
-Moore is aware that people still will think that he has massively failed to deliver. He writes:
-    quote:
-    But now I am perfectly well aware that, in spite of all that I have said, many philosophers will still feel that I have not given any satisfactory proof of the point in question.
-
-prompt:
-If you had to say why he hasn't succeeded, what would you say?
-
-note:
-Are the three conditions he listed not sufficient? 
-
-If they are, then is one of the conditions not satisfied?
-
-Is it the second condition, that he does not know his premise? 
-
-If he does not know his premise, why not?
-
-prompt:
-Let's skip to the last paragraph, because this is where he takes on the most obvious reply.
-
-prompt:
-[Read from, "But another reason..." up to "This view that, if I cannot prove..."]
-
-So what is the argument that Moore sees his opponent making against him? What reasons does he see them having for concluding that he did *not* prove that two human hands exist?
-
-note:
-    argument:
-    (1) If you cannot prove your premise, then you do not know it.
-    (2) You cannot prove your premise.
-    So: (3) You do not know it.
-    (4) If you do not know your premise, then you did not prove that two human hands exist.
-    So (5): You did not prove that two human hands exist.
-
-## Moore's reply
-
-prompt:
-And what is Moore's reply to this objection?
-
-[Read from, "This view that..." to the end of the paragraph]
-
-What claim in the argument against him does he deny?
-
-note:
-Line (1). He concedes line (2) in the previous paragraph (and again the present one). And line (4) he endorses earlier.
-
-prompt:
-And on what grounds?
-
-note:
-He knows the premise of his argument, but cannot prove it. So we may know things that we cannot prove.
-
-prompt:
-What do you think of this response?
-
-note:
-Either proof is required and I do not know my premise; or I do know my premise and proof is not required.
-
-Surely the latter is the sensible choice.
-
-## Another possibly reply
-
-prompt:
-Come to think of it, why does Moore concede that he cannnot prove, "Here's one hand, and here's another"?
-
-Why not just prove that in the same style that he purports to prove that two human hands exist?
-
-prompt:
-For example, why not give the argument "Here's a left hand, so here's one hand; and here's a right hand; so here's another hand."?
-
-Why not then insist, "The premises entail the conclusion; they are different from the conclusion; and I know the premises"?
-
-prompt:
-If someone then says that, in order to know *those* premises, you have to be able to prove them, and you cannot prove them, then just reply in the same style again.
-
-Yes, I can prove them. "Here's a left hand with five fingers; so here's a left hand..."
-
-prompt:
-The idea that knowing requires being able to give a proof doesn't seem sufficient on its own to defeat what Moore has claimed.
-
-prompt:
-Some *further* assumption is required in order to yield the conclusion that Moore has not succeeded in proving that two human hands exist.
-
-prompt:
-The assumption that is really doing the work builds in an idea about where knowledge starts.
-
-It starts from the inside. With how things look or seem to us. 
 
 
 %Just a brief aside about GE Moore. He embodies a certain approach to philosophy. Not it's job to reveal profound truths that the ordinary person doesn't see. Rather, it's job is to defend and explain the common sense, ordinary world view. It's job is to prevent people from slipping into the kind of confusions that make them conclude that time is unreal, or we know nothing, or the greatest of all conceivable beings must exist, etc.
