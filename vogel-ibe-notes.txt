@@ -1,0 +1,258 @@
+#Vogel on Skepticism and Inference to the Best Explanation
+## PHIL-1 Lecture notes
+
+## Vogel's main goal
+
+prompt:
+What is Vogel's main aim in this paper? What is he ultimately trying to accomplish?
+
+note:
+He wants to show what is wrong with the reasoning that leads to skepticism about the external world.
+
+prompt:
+If that's your goal, then first you have to lay out the reasoning that is supposed to yield skepticism.
+
+## How Vogel characterizes the skeptic's argument
+
+
+prompt:
+Vogel characterizes the reasoning that leads to skepticism in the following way:
+    argument:
+    (1) Your sensory experiences could come about through ordinary perception, so that most of what you believe about the world is true. But your sensory experiences could also be caused deceptively, so that what you believe about the world is entirely false.
+    (2) You have no reason to believe that your sensory experiences arise in one way rather than the other. 
+    So:(3) You have no knowledge of the world around. 
+Vogels calls this the *deceiver argument*.
+
+## Clarifying the first premise
+
+prompt:
+This argument talks about "your sensory experiences." What do you think that means? What would be an example?
+
+note:
+The argument sees them as things which could *either* come about through ordinary perception, *or* could be caused deceptively.
+
+So a sensory experience, as thought of by this argument, is neutral on what is really going on out there in the world. 
+
+That means that an example would be something like: having an experience as of a tomato in front of one; having an experience as of tasting something sweet.
+
+You're having the sensation or feeling or experience of something, but things *may or may not* actually be that way.
+
+So contrast: I'm having the experience as of seeing a tomato on the table vs I am seeing a tomato on the table. 
+
+prompt:
+The first premise then could be seen as setting up two competing hypotheses. One is that "your sensory experiences come about through ordinary perception," and the other is that, "your sensory experiences are caused deceptively."
+
+prompt:
+The first hypothesis, that "your sensory experiences come about through ordinary perception"---what does that mean? Like, for example?
+
+note:
+I'm having an experience as of seeing a tomato on the table because there really is a tomato on the table and I'm seeing it. 
+
+I'm having the experience of tasting something sweet because I really am eating something sweet.
+
+And so on.
+
+prompt:
+So then, "your sensory experiences are caused deceptively" means what? An example?
+
+note:
+I'm having an experience as of seeing a tomato on the table but *not* because there really is a tomato on the table and I'm seeing it; it's for some other reason (hallucination, illusion, etc.)
+
+I'm having the experience of tasting something sweet but *not* because I really am eating something sweet; it's for some other reason.
+
+## The rest of the argument
+
+prompt:
+The second premise says that you have no reason at all to believe one hypothesis rather than the other. 
+
+And then the conclusion that is drawn is, "you have no knowledge of the world around you."
+
+note:
+It seems like a much stronger conclusion could be drawn? 
+
+Namely, that I have no reason at all to believe that I am here in this classroom, that I have hands or a body, etc.
+
+## Options for resisting the argument
+
+prompt:
+If we are going to say that an argument is unsound, in principle what are the options? (Hint: there are only two of them)
+
+note:
+Either a premise is false, or some reasoning is not valid.
+
+prompt:
+So, in this case, the options are: (1) is false, (2) is false, or (3) doesn't follow from the premises.
+
+## Vogel led to deny (2) by process of elimination
+
+prompt:
+Vogel says that (1) is extremely plausible.
+
+note:
+It's not even really clear what it would mean to deny it. 
+
+prompt:
+He also thinks that the conclusion follows. He says:
+    quote:
+    I think the conclusion follows from premise 2, by way of a general principle about knowledge called the underdetermination principle.
+So it's really premise 2 plus this "underdetermination principle" that, according to Vogel, together entail the conclusion.
+
+prompt:
+So let's figure out what this underdetermination principle says.
+
+[Read from, "This principle says"...up through the rest of the paragraph.]
+
+prompt:
+The Mars example is supposed to illustrate what the undertermination principle is saying. So let's look at that example a little bit.
+
+prompt:
+The principle begins, "If you are faced with two (or more) mutually exclusive hypotheses,...".
+
+What are the mutually exclusive hypotheses that you are faced with in the Mars example?
+
+note:
+That there is water on Mars, and that there is not water on Mars.
+
+prompt:
+And whatever information you have might not favor one of those hypotheses over the other.
+
+prompt:
+If so, then, according to the undetermination principle, you don't know either hypothesis to be the case.
+
+You don't know that there is water on Mars, nor do you know that there is not water on Mars.
+
+prompt:
+[Read next paragraph]
+
+prompt:
+So, for Vogel, the first premise sets up two competing hypotheses (not always described by him in exactly the same way).
+
+The first is something like, "Your sensory experiences come about through ordinary perception," or "The world is the way that it appears to be."
+
+The second is something like, "You are the victim of massive sensory deception."
+
+The second premise then says that you have no reason at all to believe one of those hypotheses rather than the other. 
+
+And then there is effectively a third premise (the underdetermination principle) that says that whenever there are competing hypotheses, and you have no reason at all to believe one over another, then you don't know either to be the case.
+
+It then follows that you don't know either of the two hypotheses. 
+
+So you don't know the first hypothesis to be true.
+
+So you have no knowledge of the world around you.
+
+prompt:
+Vogel says:
+    quote:
+    Since premise 2 does support the conclusion, the only way to escape the deceiver argument is to deny premise 2.
+So that's what Vogel plans to do.
+
+## Vogel's argument against (2) - the IBE principle
+
+prompt:
+Vogel says:
+    quote:
+    If premise 2 is false, then skeptcism is incorrect because we really do possess some reason for believing that we aren't victims of sensory deception after all. 
+So the key question now is: what reason do we have for believing that we aren't victims of massive sensory deception?
+
+Let's see what answer Vogel gives.
+
+prompt:
+Let's read the first full paragraph on pg.310.
+
+prompt:
+There's this principle that Vogel articulates at the very end of the paragraph:
+    quote:
+    [I]f one hypothesis provides a significantly better explanation of the available evidence than its competitors do, that is a reason to accept the explanation and to reject the competitors. 
+
+He relies on this principle to argue that (2) is false---that we *do* have reason to believe the first hypothesis over the second. 
+
+So we need to make sure we understand what this principle is saying.
+
+prompt:
+And Vogel's example involving Roger and Dr.G is supposed to illustrate what the principle is saying. So let's dig in to that example a little bit.
+
+prompt:
+Vogel suggests that we can see Dr.G as having to choose between competing hypotheses, and as choosing one over the others because it "provides a better explanation of the available evidence" than its competitors do.
+
+prompt:
+What is the "available evidence" in this case? What is Dr.G trying to explain?
+
+note:
+Roger's symptoms, which are sneezing, moist eyes, his condition recurs at a certain time of the year.
+
+prompt:
+And what are the competing hypotheses that Dr.G is considering?
+
+note:
+One is that Roger has an allergy; another is that Roger happens to have caught a cold at the same time each year for multiple years; another is that he has a chronic respitory infection that always happens to pop up at the same time each year.
+
+prompt:
+In this case it seems plausible that the allergy hypothesis explains the "available evidence" (the symptoms) better than the alternative hypotheses do.
+
+prompt:
+So then what does the principle of IBE imply?
+
+note:
+It implies that the doctor has a reason to believe the allergy hypothesis over the others.
+
+## Vogel's argument against (2) - applying the IBE principle
+
+prompt:
+Vogel now tries to use the IBE principle to argue that premise (2) in the deceiver argument is false.
+
+[Read last paragraph pg.310]
+
+prompt:
+Vogel ends that paragraph by saying, "We see that premise 2 is false, and that the deceiver argument as a whole is no good."
+
+But what exactly is his argument against premise (2) here?
+
+prompt:
+Well, what does premise (2) say?
+
+note:
+It takes two hypotheses (real world vs skeptical) and says we have no reason to believe one over the other.
+
+prompt:
+So to deny premise 2, to argue that it is false, what do we need to argue?
+
+note:
+We need to argue that we *do* have reason to believe one over the other (in particular, reason to believe the first over the second).
+
+prompt:
+And, according to IBE, when do I have reason to believe one hypothesis over another?
+
+note:
+When the first "provides a significantly better explanation of the available evidence" than the second.
+
+prompt:
+So to argue that I have reason to believe the real-world hypothesis over the skeptical hypothesis, using IBE, I need to argue what?
+
+note:
+That the real-world hypothesis "provides a significantly better explanation of the available evidence" than the skeptical hypothesis does.
+
+prompt:
+And what is the "available evidence" in this case? How is Vogel thinking of it?
+
+note:
+It's "your sensory experiences."
+
+prompt:
+Vogel's idea is that the real world hypothesis provides a better explanation of "your sensory experiences" than the skeptical hypothesis does.
+
+Therefore, we have reason to believe it over the skeptical hypothesis. Therefore, (2) is false.
+
+## Evaluating Vogel's response to the deceiver argument
+
+prompt:
+What do you think of Vogel's argument against (2)?
+
+note:
+Some worries: 
+
+(1) Aren't we relying on some of our knowledge of the world in concluding that one explanatation is better than another? If so, how is this response really all that different from Moore's?
+
+(2) Is it Vogel's view that even children and animals know things about the world around them? Does that fit with the view he has expressed here?
+
+(3) The deceiver argument is spelled out a bit differently than the evil demon argument. What would Vogel's response be to that? Reject premise (1)? Does his position really lead to the view that we *know* that the demon hypothesis (or whatever) is false?
