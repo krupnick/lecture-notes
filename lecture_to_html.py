@@ -50,9 +50,21 @@ SECTION HEADINGS:
   the subtitle, not a heading -- same as before, and doesn't count
   toward the numbering.)
 
+SUB-SECTION HEADINGS:
+  A line starting with "### " becomes a sub-section heading (<h3>),
+  numbered within the section it falls under: 2.1, 2.2, 2.3... The
+  sub-section count starts over at each new "## " section.
+
+SUB-SUB-SECTION HEADINGS:
+  A line starting with "#### " becomes a sub-sub-section heading (<h4>),
+  numbered within the sub-section it falls under: 2.1.1, 2.1.2... The
+  count starts over at each new "### " (or "## ").
+
   If the file has any section headings, a table of contents linking to
   each one is generated automatically at the top of the page, right
-  after the subtitle. No markup needed for this -- it just happens.
+  after the subtitle, with sub-sections indented under their section and
+  sub-sub-sections indented again under their sub-section. No markup
+  needed for this -- it just happens.
 
 Any line starting with % anywhere in the file is treated as a comment and
 dropped entirely -- handy for keeping cut material in your notes file
@@ -63,12 +75,18 @@ EXAMPLE INPUT
 # Anselm's Ontological Argument
 ## Philosophy -- Lecture notes
 
+## The argument
+
+### Anselm's definition of God
+
 prompt:
 Here we have this argument from Anselm. It's meant to show that God
 exists.
 
 note:
 Select student at random.
+
+### Could there be more than one?
 
 prompt:
 Might there be multiple things than which nothing greater can be thought?
@@ -102,7 +120,11 @@ NESTABLE_TAG_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
-HEADING_PATTERN = re.compile(r'^##\s+(.+)$')
+# "## Title" -> section, "### Title" -> sub-section,
+# "#### Title" -> sub-sub-section
+HEADING_PATTERN = re.compile(r'^(#{2,4})\s+(.+)$')
+
+HEADING_KINDS = {2: 'heading', 3: 'subheading', 4: 'subsubheading'}
 
 TAG_MAP = {
     'prompt': 'prompt',
@@ -209,8 +231,9 @@ def parse_top_level(lines):
     """Split the file into top-level blocks. A tag line only starts a new
     top-level block if it is NOT indented; indented argument/quote/table
     tag lines are left inside the current block's raw lines, to be picked
-    up later by split_segments() as nested content. A "## " line becomes
-    its own single-line 'heading' block."""
+    up later by split_segments() as nested content. A "## ", "### " or
+    "#### " line becomes its own single-line 'heading', 'subheading' or
+    'subsubheading' block."""
     blocks = []
     current_tag = None
     current_lines = []
@@ -228,7 +251,8 @@ def parse_top_level(lines):
             flush()
             current_tag = None
             current_lines = []
-            blocks.append(('heading', [heading_match.group(1)]))
+            kind = HEADING_KINDS[len(heading_match.group(1))]
+            blocks.append((kind, [heading_match.group(2)]))
             continue
 
         m = TAG_PATTERN.match(stripped) if stripped else None
@@ -332,6 +356,37 @@ def block_to_html(tag, raw_lines):
     raise ValueError(f'Unknown tag: {tag}')
 
 
+def toc_link(entry):
+    return f'<a href="#{entry["id"]}">{entry["label"]} {entry["text"]}</a>'
+
+
+def toc_list(entries, indent):
+    """Render a <ul> of TOC entries, recursing into each entry's 'subs'
+    so sub-sections (and sub-sub-sections) nest under their parent."""
+    items = []
+    for entry in entries:
+        if entry['subs']:
+            items.append(
+                f'{indent}  <li>{toc_link(entry)}\n'
+                f'{toc_list(entry["subs"], indent + "    ")}\n'
+                f'{indent}  </li>'
+            )
+        else:
+            items.append(f'{indent}  <li>{toc_link(entry)}</li>')
+    return f'{indent}<ul>\n' + '\n'.join(items) + f'\n{indent}</ul>'
+
+
+def build_toc(toc_entries):
+    """Render the table of contents."""
+    if not toc_entries:
+        return ''
+    return (
+        '  <nav class="toc">\n'
+        f'{toc_list(toc_entries, "    ")}\n'
+        '  </nav>\n\n'
+    )
+
+
 def convert(input_text):
     lines = input_text.splitlines()
     lines = [l for l in lines if not l.lstrip().startswith('%')]
@@ -356,33 +411,65 @@ def convert(input_text):
     blocks = parse_top_level(body_lines)
 
     heading_num = 0
+    sub_num = 0
+    subsub_num = 0
     body_parts = []
     toc_entries = []
     for tag, raw in blocks:
         if tag == 'heading':
             heading_num += 1
+            sub_num = 0
+            subsub_num = 0
             heading_text = format_inline(raw[0])
-            body_parts.append(
-                f'  <h2 id="section-{heading_num}">{heading_num}. {heading_text}</h2>'
+            anchor = f'section-{heading_num}'
+            label = f'{heading_num}.'
+            body_parts.append(f'  <h2 id="{anchor}">{label} {heading_text}</h2>')
+            toc_entries.append(
+                {'id': anchor, 'label': label, 'text': heading_text, 'subs': []}
             )
-            toc_entries.append((heading_num, heading_text))
+        elif tag == 'subsubheading':
+            subsub_num += 1
+            heading_text = format_inline(raw[0])
+            nums = [heading_num, sub_num, subsub_num]
+            # Drop leading zeros (a heading level that hasn't appeared yet),
+            # e.g. a "#### " before any "## " is just numbered 1, 2, ...
+            while len(nums) > 1 and nums[0] == 0:
+                nums.pop(0)
+            anchor = 'section-' + '-'.join(str(n) for n in nums)
+            label = '.'.join(str(n) for n in nums)
+            if len(nums) == 1:
+                label += '.'
+            body_parts.append(f'  <h4 id="{anchor}">{label} {heading_text}</h4>')
+            entry = {'id': anchor, 'label': label, 'text': heading_text, 'subs': []}
+            # Nest under the most recent sub-section (or section) in the TOC.
+            if sub_num and toc_entries and toc_entries[-1]['subs']:
+                toc_entries[-1]['subs'][-1]['subs'].append(entry)
+            elif heading_num and toc_entries:
+                toc_entries[-1]['subs'].append(entry)
+            else:
+                toc_entries.append(entry)
+        elif tag == 'subheading':
+            sub_num += 1
+            subsub_num = 0
+            heading_text = format_inline(raw[0])
+            if heading_num:
+                anchor = f'section-{heading_num}-{sub_num}'
+                label = f'{heading_num}.{sub_num}'
+            else:
+                # Sub-section before any section: number it on its own.
+                anchor = f'section-0-{sub_num}'
+                label = f'{sub_num}.'
+            body_parts.append(f'  <h3 id="{anchor}">{label} {heading_text}</h3>')
+            entry = {'id': anchor, 'label': label, 'text': heading_text, 'subs': []}
+            if heading_num:
+                toc_entries[-1]['subs'].append(entry)
+            else:
+                toc_entries.append(entry)
         else:
             body_parts.append(block_to_html(tag, raw))
     body_html = '\n\n'.join(body_parts)
 
-    toc_html = ''
-    if toc_entries:
-        items = '\n'.join(
-            f'      <li><a href="#section-{num}">{num}. {text}</a></li>'
-            for num, text in toc_entries
-        )
-        toc_html = (
-            '  <nav class="toc">\n'
-            '    <ul>\n'
-            f'{items}\n'
-            '    </ul>\n'
-            '  </nav>\n\n'
-        )
+    toc_html = build_toc(toc_entries)
 
     return f'''<!DOCTYPE html>
 <html lang="en">

@@ -173,6 +173,23 @@ h2 {
   color: var(--ink);
 }
 
+/* Sub-section headings */
+h3 {
+  font-size: 1.05rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.4rem;
+  color: var(--ink-soft);
+}
+
+/* Sub-sub-section headings */
+h4 {
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-top: 1.8rem;
+  margin-bottom: 0.3rem;
+  color: var(--ink-soft);
+}
+
 /* Table of contents (auto-generated from section headings) */
 .toc {
   margin: 0 0 2.5rem;
@@ -191,6 +208,31 @@ h2 {
 
 .toc li {
   margin: 0.4rem 0;
+}
+
+/* Sub-sections, indented under their section */
+.toc ul ul {
+  margin: 0.25rem 0 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.toc li li {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+}
+
+.toc li li a {
+  color: var(--ink-soft);
+}
+
+/* Sub-sub-sections, indented again under their sub-section */
+.toc ul ul ul {
+  margin: 0.15rem 0 0.35rem;
+}
+
+.toc li li li {
+  margin: 0.15rem 0;
+  font-size: 0.8rem;
 }
 
 .toc a {
