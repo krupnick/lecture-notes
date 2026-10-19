@@ -183,6 +183,8 @@ In another context, saying, "James knows that his car parked in lot 2," will imp
 prompt:
 So *what it means* to say, "James knows..." will change from one context to another.
 
+In particular, what you are claiming about James's level of justification changes.
+
 
 #### The salience of error possibilities creates a high standards context
 
@@ -203,22 +205,56 @@ Cohen addresses this in the section titled, "The Mechanism of Context Shifting."
 prompt:
 What that means is that as soon as someone starts talking about how you could be mistaken---maybe your car get stolen, maybe someone slipped you a drug that's making you hallucinate, etc.---that changes the context to one with high standards for knowing.
 
-It changes the context to one where saying, "James knows..." is an incredibly bold claim which implies that James has very, very good justification.
+It changes the context to one where saying, "James knows..." is a bold claim which implies that James has very, very good justification.
 
-Whereas, ordinarily, when no one is bothering to raise those sorts of possibilities, the standards are lower. So "James knows..." says something less ambitious, that James only has pretty good justification. 
+Whereas, ordinarily, when no one is bothering to raise those sorts of possibilities, the standards are lower. So saying "James knows..." says something less ambitious, that James only has pretty good justification. 
 
 ### Applying contextualism about knowledge to the example
 
 prompt:
 So, finally, let's return to the example we started with. 
 
+On the face of it, by the end, you have retracted what you earlier asserted. 
 
+But the contextualist has a different take on what is going on. What is it?
 
-%prompt:
-%Notice the possibility that opens up. Suppose you have a medium level of justification.
+prompt:
+On their view, something very significant happens in the middle of the story, when the person raises the possibility that your car was stolen. 
 
-%Then you might meet the standards of the first context, but *not* meet the standards of the second context.
+#### The starting context is a low standards one, and your claim to know is correct
 
-%So you might count as knowing in the first context, but not count as knowing in the second context. 
+prompt:
+Before that point, you were in an ordinary context, with relatively low standards for knowing.
 
-%Even though nothing about your level of justification has changed. All that's changed is the standards. All that's changed is how much justification is required for knowing.
+So when you initially said, "I know my car is in lot 2," you weren't making a particularly bold or ambitious claim. You were implying only that you had pretty good justification for your belief.
+
+So the claim you made then---the proposition you put forward---was *correct*.
+
+#### The ending context is a high standards one, and your claim not to know is correct
+
+prompt:
+But once the person raises the possibility that your car was stolen, that has an important impact on the "context" that you are in. 
+
+You are now in a context where someone has raised that possibility.
+
+According to the contextualist, that raises the standards for knowing. It means that any claim to know is now a bold assertion, which would imply that you have extremely good justification.
+
+So saying, "I know my car is in lot 2" at this point would be to put forward *a different claim* from the claim you made earlier.
+
+prompt:
+And you don't actually have the level of justification that would be required for making that claim true. 
+
+So if you were to say at this point, "I know my car is in lot 2," you would be wrong.
+
+And so when you say, "I do not know my car is in lot 2," you are correct.
+
+#### There is no inconsistency here
+
+prompt:
+It sounds like you are contradicting what you said earlier.
+
+But, according to the contextualist, there is no contradiction. 
+
+It's like starting out in Seattle and saying, "It's raining here," and then flying to LA and saying, "It's not raining here." There is no inconsistency there.
+
+Saying, "I know" the first time and then "I don't know" the second time is also not inconsistent, because the context changed in between, in a way that changed what it means to say, "I know."
