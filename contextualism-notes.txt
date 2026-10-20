@@ -258,3 +258,88 @@ But, according to the contextualist, there is no contradiction.
 It's like starting out in Seattle and saying, "It's raining here," and then flying to LA and saying, "It's not raining here." There is no inconsistency there.
 
 Saying, "I know" the first time and then "I don't know" the second time is also not inconsistent, because the context changed in between, in a way that changed what it means to say, "I know."
+
+## Applying contextualism to skeptical reasoning
+
+prompt:
+Now apply this same diagnosis to what happens when we are confronted with classic skeptical reasoning. 
+
+### The contextualist diagnosis
+
+prompt:
+You start out saying, "I know that I'm here in this classroom, I know that I have hands and a body," and so on.
+
+Then you are presented with a skeptical argument, such as the evil demon argument. 
+
+After which you concede, or there is certainly a temptation to concede, "I don't know..."
+
+prompt:
+What does the contextualist say is going on here?
+
+When you intially say, "I know that I'm here in this classroom, I know that I have hands and a body..." is what you say true, according to the contextualist?
+
+note:
+Yes
+
+prompt:
+And why?
+
+note:
+Because at that point you are in a low-standards context. 
+
+And you have enough justification for your beliefs to meet that standard.
+
+prompt:
+And then what happens when the skeptical argument is presented?
+
+note:
+At that point, an "error possibility" is raised. So the context shifts to one where there are much higher standards for knowledge.
+
+prompt:
+So when you say, "I don't know..." is what you say true, on the contextualist view?
+
+note:
+Yes
+
+prompt:
+And why?
+
+note:
+Because you don't have the level of justification for your beliefs that is required to meet the much higher standard that is now in place.
+
+prompt:
+So when you intially say, "I know" you speak truly, and when you say, "I don't know" you also speak truly.
+
+This only *sounds* inconsistent. It's not actually inconsistent because what it means to say, "I know" has shifted in between.
+
+### Noteworthy consequences of the contextualist diagnosis
+
+prompt:
+So when the skeptic lays out their argument and says, "So you don't really know anything about the external world," are they correct?
+
+(According to the contextualist)
+
+note:
+Yes, in the sense that what they thereby claim, given the context operating at that time, is true.
+
+prompt:
+But there is a very important `but'. Which is that, when you go back to your ordinary life, and you talk about what you and others know, those claims are *also* true.
+
+Because, given the context operating at that time, what you say then is correct.
+
+prompt:
+So the contextualist can be seen as *conceding* to the skeptic, while also taking away the bite of that concession.
+
+Our mistake is to think that conceding to the skeptic undermines our ordinary claims to know. 
+
+According to the contextualist, it does not.
+
+
+%Objections to contextualism
+%semantic blindness
+%car example-raised standards would imply all claims to knowledge are suspect? But they don't seem to be.
+
+%Revising short-answer questions
+%Something along these lines: Contextualism may be seen as a view that concedes something to the skeptic, while still holding on to common sense. What does the contextualist concede to the skeptic? And how is making that concession compatible with holding on to common sense?
+
+%Something about semantic blindness objection?
