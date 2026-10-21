@@ -312,10 +312,10 @@ So when you intially say, "I know" you speak truly, and when you say, "I don't k
 
 This only *sounds* inconsistent. It's not actually inconsistent because what it means to say, "I know" has shifted in between.
 
-### Noteworthy consequences of the contextualist diagnosis
+### How this constitutes a response to skeptical reasoning
 
 prompt:
-So when the skeptic lays out their argument and says, "So you don't really know anything about the external world," are they correct?
+So when the skeptic lays out their argument and concludes, "So you don't really know anything about the external world," are they correct?
 
 (According to the contextualist)
 
@@ -323,14 +323,23 @@ note:
 Yes, in the sense that what they thereby claim, given the context operating at that time, is true.
 
 prompt:
-But there is a very important `but'. Which is that, when you go back to your ordinary life, and you talk about what you and others know, those claims are *also* true.
+According to the contextualist, this is what explains the appeal of skeptical reasoning.
+
+Everything that the skeptic is saying is true, given the context operating at the time.
+
+prompt:
+However, that's not the end of the story.
+
+There is a very important `but' here.
+
+Which is that, when you go back to your ordinary life, and you talk about what you and others know, those claims are *also* true.
 
 Because, given the context operating at that time, what you say then is correct.
 
 prompt:
-So the contextualist can be seen as *conceding* to the skeptic, while also taking away the bite of that concession.
+So contextualism purports both to explain why skeptical arguments are compelling, while still holding on to the idea that our ordinary claims to know are correct.
 
-Our mistake is to think that conceding to the skeptic undermines our ordinary claims to know. 
+The mistake that they are supposedly correcting is our inclination to think that conceding to the skeptic in the moment undermines our ordinary claims to know. 
 
 According to the contextualist, it does not.
 
@@ -339,54 +348,60 @@ According to the contextualist, it does not.
 ### Semantic blindness
 
 prompt:
-One objection that Cohen himself raises is the "semantic blindness" objection.
-
-The objection is that contextualism postulates that we are ordinarily---before it is pointed out to us---"blind" to the way in which knowledge is context sensitive.
-
-But, the objection goes, speakers of a language are usually not blind to the context sensitivity of their own language, at least not in such a strong and resilient way.
+One objection that Cohen himself raises is the "semantic blindness" objection (prominenty raised by Stephen Schiffer).
+%see Stephen Schiffer "Contextualist Solutions to Scepticism (1996)
 
 prompt:
-On the first point. 
+According to the contextualist, we *mistakenly* think that conceding to the skeptic in the moment undermines our ordinary claims to know.
 
-According to the contextualist, my initial statement, "I know I am in classroom, have hands," etc, does not conflict with my later statement, "I don't know..."
+If we already saw the way in which knowledge-talk is context-sensitive, we wouldn't make that mistake. 
 
-But we all initially respond as if they conflict.
-
-Even after contextualism is presented to us, it's hard to shake the sense that the later statement contradicts the earlier one---that it amounts to retracting or taking back the earlier claim.
-
-So, according to the contextualist, we have a kind of persistent blind-spot when it comes to the context-sensitivity of knowledge ascriptions.
+So, according to the contextualist, we are ordinarily---before it is pointed out to us---"blind" to the way in which knowledge-talk is context sensitive.
 
 prompt:
-But we don't seem to have the same blind spot when it comes to other ways in which our language is context sensitive.
+But, the objection goes, speakers of a language are usually not blind to the context sensitivity of their own language.
 
-We immediately see that one person saying "I'm hungry" is not contradicted by a different person who says, "I'm not hungry."
+We immediately see that there is no contradiction between "I'm hungry" said by me and "I'm not hungry" said by someone else. 
 
-We immediately see that one person in CA might truthfully say, "It's raining here," while another in Texas truthfully says, "It's not raining here." There's no conflict.
+We immediately see that there is no contradiction between "It's raining here," said by someone in SEA and "It's not raining here" say by someone in LA.
 
-So why this one blind-spot?
+We immediately see that there is no contradiction between "She's tall" said about a 4 foot tall kindergartener, and, "She's not tall" said about a 4 foot tall adult.
+
+prompt:
+But we *don't* immediately see that there is no contradiction between, "I know..." said in ordinary life and, "I don't know..." said in the philosophy classroom.
+
+So why this one exception?
+
 
 ### Raised standards would seem to predict incorrectly that other knowledge claims would also fail
+
+%See Schaffer, Jonathan. 2005. “What Shifts? Thresholds, Standards, or Alternatives?” In Contextualism in Philosophy: Knowledge, Meaning, and Truth, edited by Gerhard Preyer and Georg Peter, 115–130. Oxford: Oxford University Press.
+
+%Lewis and DeRose over versions of contextualism that try to get around this problem.
 
 prompt:
 Go back to the car example.
 
-According to the contextualist, when the person raises the possiblity of theft, that raises the standards.
+According to the contextualist, when the person raises the possiblity of theft, that raises the standards for knowing.
 
-It's the *context* that is now a high-standards one.
-
-But that would seem to imply that pretty much any claim to know would be wrong.
+But if the standards for knowing, generally speaking, are now higher, that would seem to imply that pretty much any claim to know would be wrong.
 
 But that does not seem quite right. 
 
-It seems like I still might truly say, "I know there is a basketball game tonight" or, "I know that the restaurant is open until 10pm," and so on.
+prompt:
+Even if it now seems wrong for me to say, "I know the car is in lot 2," it doesn't seem wrong for me to say, "I know there is a gas station a few miles down the road," for example.
+
 
 ### Too much of a concession to the skeptic?
 
+%For this kind of objection, see Feldman, Richard. 2001. “Skeptical Problems, Contextualist Solutions.” Philosophical Studies 103 (1): 61–85.
+
+prompt:
+Finally, one might worry that contextualism concedes too much to the skeptic.
+
+On this view, there is a standard that we never meet. There is a sense of `know' in which it is never true for us to say `We know'.
 
 
-%Objections to contextualism
-%semantic blindness
-%car example-raised standards would imply all claims to knowledge are suspect? But they don't seem to be.
 
 %Revising short-answer questions
 %Something along these lines: Contextualism may be seen as a view that concedes something to the skeptic, while still holding on to common sense. What does the contextualist concede to the skeptic? And how is making that concession compatible with holding on to common sense?
