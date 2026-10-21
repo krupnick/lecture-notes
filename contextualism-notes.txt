@@ -334,6 +334,55 @@ Our mistake is to think that conceding to the skeptic undermines our ordinary cl
 
 According to the contextualist, it does not.
 
+## Objections to contextualism
+
+### Semantic blindness
+
+prompt:
+One objection that Cohen himself raises is the "semantic blindness" objection.
+
+The objection is that contextualism postulates that we are ordinarily---before it is pointed out to us---"blind" to the way in which knowledge is context sensitive.
+
+But, the objection goes, speakers of a language are usually not blind to the context sensitivity of their own language, at least not in such a strong and resilient way.
+
+prompt:
+On the first point. 
+
+According to the contextualist, my initial statement, "I know I am in classroom, have hands," etc, does not conflict with my later statement, "I don't know..."
+
+But we all initially respond as if they conflict.
+
+Even after contextualism is presented to us, it's hard to shake the sense that the later statement contradicts the earlier one---that it amounts to retracting or taking back the earlier claim.
+
+So, according to the contextualist, we have a kind of persistent blind-spot when it comes to the context-sensitivity of knowledge ascriptions.
+
+prompt:
+But we don't seem to have the same blind spot when it comes to other ways in which our language is context sensitive.
+
+We immediately see that one person saying "I'm hungry" is not contradicted by a different person who says, "I'm not hungry."
+
+We immediately see that one person in CA might truthfully say, "It's raining here," while another in Texas truthfully says, "It's not raining here." There's no conflict.
+
+So why this one blind-spot?
+
+### Raised standards would seem to predict incorrectly that other knowledge claims would also fail
+
+prompt:
+Go back to the car example.
+
+According to the contextualist, when the person raises the possiblity of theft, that raises the standards.
+
+It's the *context* that is now a high-standards one.
+
+But that would seem to imply that pretty much any claim to know would be wrong.
+
+But that does not seem quite right. 
+
+It seems like I still might truly say, "I know there is a basketball game tonight" or, "I know that the restaurant is open until 10pm," and so on.
+
+### Too much of a concession to the skeptic?
+
+
 
 %Objections to contextualism
 %semantic blindness
