@@ -1,0 +1,220 @@
+#Cartesian Dualism
+## PHIL-1 Lecture notes
+
+## What is Cartesian Dualism?
+
+### I exist. But what am I?
+
+prompt:
+Let's read the first paragraph of Meditation II.
+
+prompt:
+Does Descartes manage to find, "one thing, however slight, that is certain and unshakeable"?
+
+note:
+Yes.
+
+prompt:
+And what is it?
+
+note:
+That he exists. 
+
+prompt:
+Let's read the passage where he identifies that as the one thing which he is completely certain of.
+
+Read from, "Yet apart from everything..." up through the end of that paragraph.
+
+prompt:
+Now the next paragraph starts:
+    quote:
+    But I do not yet have a sufficient understanding of what this "I" is, that now necessarily exists. So I must be on my guard against carelessly taking something else to be this "I," and so making a mistake in the very item of knowledge that I maintain is the most certain and evident of all.
+So Descartes is effectively saying: "Ok, I know that I exist. But what am I? What is essential to me?"
+
+prompt:
+That now becomes the key question in Meditation II.
+
+### How Descartes proposes to answer the question
+
+prompt:
+Descartes continues:
+    quote:
+    I will therefore go back and meditate on what I originally believed myself to be, before I embarked on this present train of thought. I will then subtract anything capable of being weakened, even minimally, by the arguments now introduced, so that what is left at the end may be exactly and only what is certain and unshakeable.
+Here we might see Descartes as telling us how he proposes to figure out what he is, or what features of his are essential to him.
+
+So let's try to break this down a bit.
+
+prompt:
+First, Descartes says, "I will therefore go back and meditate on what I originally believed myself to be, before I embarked on this present train of thought."
+
+What did he originally believe himself to be?
+
+note:
+The answer is in the next paragraph.
+    quote:
+    I propose to concentrate on what came into my thoughts sponatenously and quite naturally whenever I used to consider what I was. Well, the first thought to come to mind was that I had a face, hands, arms and the whole mechancical structure of limbs which can be seen in a corpse, and which I called the body. The next thought was that I was nourished, that I moved about, and that I engaged in sense-perception and thinking.
+So his initial thoughts are that he has a body, he eats, he moves, he senses.
+
+prompt:
+Next Descartes says, "I will then subtract anything capable of being weakened, even minimally, by the arguments now introduced."
+
+What are "the arguments now introduced"? What argument did he raise in the previous meditation?
+
+note:
+The evil demon argument.
+
+prompt:
+Descartes says he will "subtract anything capable of being weakened," by that argument.
+
+Before considering the evil demon argument, would I have claimed to be certain that I have hands, or a face, or a body?
+
+note:
+Yes
+
+prompt:
+And what about after considering the evil demon argument? Might I now concede that those things are not certain? That I can't be sure that I have those features?
+
+note:
+Yes.
+
+prompt:
+So my convinction that I have hands, for example, is something, "capable of being weakened" by the evil demon argument.
+
+prompt:
+So when Descartes says:
+    quote:
+    I will therefore go back and meditate on what I originally believed myself to be, before I embarked on this present train of thought. I will then subtract anything capable of being weakened, even minimally, by the arguments now introduced, so that what is left at the end may be exactly and only what is certain and unshakeable.
+What does he have in mind in terms of how to figure out what is essential to him?
+
+prompt:
+Based on what he is suggesting here, is having hands essential to him?
+
+note:
+No
+
+prompt:
+And why not?
+
+note:
+Because his having hands is something that the evil demon argument calls into doubt. It's a claim about himself that can be "weakened" by that argument. 
+
+prompt:
+So he's thinking that what is essential to him is whatever features of his *cannot* be called into doubt by the evil demon argument.
+
+### What he is
+
+prompt:
+What conclusion does that lead Descartes to, about what he is?
+
+Read the paragraph that starts, "But what shall I now say that I am..."
+
+prompt:
+So Descartes concludes:
+    quote:
+    I am, then, in the strict sense only a thing that thinks; that is, I am a mind, or intelligence, or intellect, or reason...But for all that I am a thing which is real and which truly exists. But what kind of a thing? As I have just said---a thinking thing.
+
+prompt:
+Is he a physical thing, in his view? Consider the next couple of lines:
+    quote:  
+    What else am I? I will use my imagination. I am not that structure of limbs which is called a human body. I am not even some thin vapour which permeates the limbs---a wind, fire, air, breath, or whatever I depict in my imagination; for these are things which I have supposed to be nothing. 
+
+prompt:
+And the next paragraph:
+    quote:
+    But when then am I? A thing that thinks. What is that? A thing that doubts, understands, affirms, denies, is willing, is unwilling, and also imagines and has sensory perceptions.
+
+
+### His relationship to his body
+
+prompt:
+Does Descartes think that he has a body?
+
+prompt:
+Flip to Meditation VI, to the paragraph that starts, "There is nothing that my own nature teaches me..." and read that and the next paragraph. 
+
+prompt:
+So on Descartes's view:
+    argument:
+    (i) He is a "thinking thing," which is a "mind" or "intellect" or "reason" and is not a physical thing.
+    (ii) He has a body. He is "very closely joined and, as it were, intermingled with it." 
+    (iii) He and his body in some sense *interact*.
+This is Cartesian Dualism.
+
+prompt:
+The textbook asks:
+    quote:
+    According to Richard Watson's *Cogito, Ergo Sum: The Life of Rene Descartes*, Descartes was short in height, perhaps a little over 5 feet. Speaking strictly, would Descartes have agreed? Explain your answer.
+What's the answer, and why?
+
+note:
+Speaking strictly, Descartes himself is just a thinking thing that has no height or weight or any physical properties.
+
+His *body* has a height. 
+
+## Elisabeth's objection to Cartesian Dualism
+
+prompt:
+One of the classic objections to Cartesian Dualism was expressed very well by Princess Elisabeth of Bohemia.
+
+prompt:
+She writes:
+    quote:
+    I ask you to please tell me how the soul of a human being, (it being only a thinking substance), can determine the bodily spirits, in order to bring about voluntary actions.
+In your words, what is Elisabeth asking here?
+
+note:
+How can a non-physical thing have any effect on a physical thing?
+
+prompt:
+That does seem mysterious. But Elisabeth doesn't quite leave it at that. She doesn't just depend on us to find it mysterious. She tries to say a little something about why that seems impossible.
+
+prompt:
+So let's read the next bit of the passage:
+    quote:
+    For it seems that all determination of movement is made by the impulsion of the thing moved, by the manner in which it is pushed by that which moves it, or else by the particular qualities and shape of the surface of the latter. 
+Can you put this in your own words? What is Elisabeth saying here?
+
+note:
+In order for one thing to move another thing ("all determination of movement") the first thing has to *push* or *bump up against* the second thing.
+
+prompt:
+Elisabeth goes on:
+    quote:
+    Physical contact is required for the first two conditions, extension for the third.
+Here "extension" means "taking up space."
+
+She's saying that for a first thing to push or bump up against a second thing, the first thing has to make physical contact with the second thing. 
+
+So the first thing has to take up space.
+
+prompt:
+But:
+    quote:
+    You entirely exclude the one [extension] from the notion that you have of the soul and the other [physical contact] appeats to me incompatible with an immaterial thing.
+
+But, on Descartes's view, I am a non-physical, immaterial thing. So I don't take up space. So how I can make anything physical thing move?
+
+prompt:
+Elisabeth says:
+    quote:
+    This is why I ask you for a more precise definition of the soul than that you give in your Metaphysics, that is to say, of its substance separate from its action, that is, from thought.
+What is Elisabeth asking for here? What does she mean by asking for a definition of, "its [the soul's] substance separate from its action"?
+
+note:
+Descartes is always talking about what the soul *does*--it thinks, doubts, understands, etc.
+
+But what is the soul *made of*? We are just told what it is not (not a wind or fire or breath). Not what it is.
+
+## An argument for Cartesian Dualism
+
+prompt:
+Descartes gives a famous argument in Meditation VI for the conclusion that he is distinct from his body.
+
+%If time permits on first session, have students read over passage themselves and try to reconstruct the reasoning.
+
+%Will do a more detailed analysis at the next class.
+
+
+## Objections to that argument
+
+prompt:
