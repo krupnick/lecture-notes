@@ -289,10 +289,6 @@ But what is the soul *made of*? We are just told what it is not (not a wind or f
 
 ## An argument for Cartesian Dualism
 
-%If time permits on first session, have students read over passage themselves and try to reconstruct the reasoning.
-
-%Will do a more detailed analysis at the next class.
-
 ### The conclusion
 
 prompt:
@@ -517,6 +513,9 @@ So in full the argument would run:
     (5) I can conceive of myself apart from my body.
     So (6) I am distinct from my body [from 4,5]
 
+
+### What "conceiveing x apart from y" means
+
 prompt:
 The argument talks about "conceving of x *apart from* y" or "x being *separated from* y".
 
@@ -556,6 +555,85 @@ Point 2: Just the other day I overheard some students talk about what they would
 
 
 
-## Objections to that argument
+## Arnauld's objection
+
+### The objection
 
 prompt:
+Antoine Arnauld raises a famous objection to Descartes's reasoning.
+
+The objection centers on the following example.
+
+prompt:
+Arnauld writes:
+    quote:
+    Suppose someone knows for certain that [a] triangle...is right-angled. In spite of this, he may doubt, or not yet have grasped for certain, that the square on the hypotenuse is equal to the squares on the other two sides; indeed he may even deny this if he is misled by some fallacy.
+
+prompt:
+"the square on the hypotenuse is equal to the squares on the other two sides." What is this?
+
+note:
+The Pythagorean Theorem.
+
+prompt:
+So if this person says that they are envisioning a right triangle but then denies that, "the square on the hypotenuse is equal to the squares on the other two sides," then they are claiming to envision a right triangle that violates the Pythagorean Theorem.
+
+prompt:
+Is such a triangle possible?
+
+note:
+No
+
+prompt:
+So is what this person claiming to envision possible?
+
+note:
+No
+
+prompt:
+Could an all-powerful God even create such a triangle?
+
+note:
+No
+
+prompt:
+But this person doesn't know any better, right? They're just learning geometry. So it makes sense that they might claim to envision this triangle, right?
+
+prompt:
+So what premise in Descartes's reasoning is being challenged here?
+
+note:
+The first premise. This might seem like an example where there is something that is conceivable, but not possible (not capable of being created even by an all-powerful God).
+
+
+### A possible reply
+
+prompt:
+How might Descartes respond to this objection?
+
+prompt:
+The objection rests on two claims:
+    argument:
+    (a) The person is conceiving of a right triangle that violates the Pythagorean Theorem.
+    (b) Such a triangle is not possible (not capable of being created by God).
+Which would Descartes challenge?
+
+note:
+Not the second. So he would have to challenge the first.
+
+prompt:
+So Descartes would respond by saying that the person is *not* really conceiving of what they claim to be conceiving of.
+
+prompt:
+Might this response be hard for Descartes to maintain, though?
+
+note:
+The person is *sincere* in their claim to conceive of this triangle.
+
+Why do they think it is conceivable, even though it is not? Because they are just starting to learn geometry. They don't know much about it yet. 
+
+So their lack of knowledge leads them to take certain things to be conceivable that really are not.
+
+Who else is making a claim about what is conceivable? Descartes himself is, in line (5) of his argument.
+
+We might now say that Descartes himself is analogous to this begninning geometry student. His lack of knowledge about his true nature is leading him to find things to be conceivable which really are not.
