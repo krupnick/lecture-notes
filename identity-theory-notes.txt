@@ -1,0 +1,228 @@
+#Identity Theory
+## PHIL-1 Lecture notes
+
+## What does it take to have a mind?
+
+prompt:
+We make a distinction between things that have a mental life and things that do not.
+
+People, dogs, cats, whales, cows, etc. vs rocks, books, tables, chairs, etc.
+
+prompt:
+What is it about the first set of things which makes it true to say that they have a mental life?
+
+They experience pain and pleasure, they have beliefs and desires, they feel emotions like fear and excitement, and so on.
+
+Ok. But what is it about them that makes it true to say that they experience pain and pleasure? That they have beliefs and desires? That they experience emotions like fear and excitement, and so on?
+
+### The behaviorist gives one answer
+
+prompt:
+
+### The identity theorist gives another
+
+prompt:
+The identity theorist is trying to answer the same question. But gives a different answer.
+
+## What is the identity theory?
+
+### Sensations are brain processes
+
+prompt:
+Smart defends the thesis that, "sensations are brain processes." Pain and pleasure are sensations. What else?
+
+note:
+Hunger. Fatigue.
+
+prompt:
+So, on Smart's view: pain is a brain process, pleasure is a brain process, hunger is a brain process, fatigue is a brain process, and so on.
+
+prompt:
+Let's just pick one of those claims to focus on: that pain is a brain process. What does that mean?
+
+### Pain is *a* brain process
+
+prompt:
+First, let's emphasize the fact that what Smart is asserting is that pain is *a* brain process. He doesn't say which brain process it is. 
+
+If you ask Smart which brain process pain is---which neurons firing, or whatever---he would say, "I have no idea. I'm just saying that there is some brain process (I'm not sure of the details yet) which pain is. That's all I'm claiming. Maybe scientists can pin down exactly which brain process it is."
+
+### Pain *is* a brain process
+
+prompt:
+Smart says:
+    quote:
+    When I say that a sensation is a brain process...I am using "is" in the sense of strict identity. (Just as in the...proposition "7 is identical with the smallest prime number greater than 5.")
+
+So Smart is saying that pain is a brain process in the sense that pain = a brain process. 
+
+In other words, there is some brain process such that pain = that brain process---pain and that brain process are one and the same. 
+
+In other words, there is some brain process such that to be in pain *just is* to undergo that brain process.
+
+#### Smart draws a contrast between identity and perfect correlation
+
+Prompt:
+Smart goes on to say:
+	Quote:
+	When I say that a sensation is a brain process…I do not mean just that the sensation is somehow spatially or temporally continuous with the brain process
+
+Here Smart is drawing a contrast between saying that pain *is* such and such brain process, and saying that pain is “spatially/temporally continuous” with that brain process. 
+
+What is that distinction?
+
+Prompt:
+Read: “Spatially/temporally continuous with” as meaning occurs at the same place at the same time. 
+
+So to say that pain is “spatially/temporally continuous with” such and such brain process would mean that pain and that brain process always go together. Whenever one is present so is the other. 
+
+Prompt:
+So Smart is drawing a contrast between these two things:
+    argument:
+    (i) pain *is* such and such brain process
+    (ii) pain and such and such brain process always go together
+
+He's not saying just the second (he's not *merely* saying the second). He's saying the first.
+
+The first implies the second. But the second does not imply the first.
+
+Why not?
+
+#### Identity is not the same as perfect correlation
+
+Prompt:
+Consider the claim that to be human *just is* to have the capacity for complex, symbolic language. Is that correct?
+
+Note:
+No, because some humans don’t have that capacity.
+
+Prompt:
+What if we changed it to: to be human just is to be *a member of a species* that has the capacity for complex, symbolic language? Is this correct?
+
+Prompt:
+Is there anything that fits the first category (human) but not the second (not a member of a species that has the capacity….)?
+
+Note:
+No.
+
+Prompt:
+Is there anything that fits the second category (is a member of species that has the capacity for complex, symbolic language), but not the first (not a human)?
+
+Note:
+No
+
+Prompt:
+So the two categories are co-extensive. There isn’t anything that is a member of one but not the other. 
+
+But is it true to say that to be a human *just is* to be a member of a species that has the capacity for complex, symbolic language?
+
+Note:
+No, because of the *possibility* of the two coming apart. An alien with complex language would not be a human. 
+
+%Add some more examples to illustrate the distinction between properties merely being co-extensive, and being identical
+
+prompt:
+Here's another example. Consider these two categories:
+    argument:
+    (i) being a planet in our solar system
+    (ii) being one of the eight largest round bodies orbiting the Sun
+
+prompt:
+Everything in the first category is also in the second. And vice versa. So these two categories are co-extensive. 
+
+But they are not identical. Because they could come apart. (Imagine that another planet enters into our solar system.)
+
+Prompt:
+So to say that to be in pain *just is* to undergo such and such brain process is to go beyond saying that being in pain and undergoing that brain process always in fact go together. It goes beyond saying that they are perfectly correlated.
+
+It implies that the two could not *possibly* come apart. 
+
+## Putnam's objection to the identity theory
+
+
+prompt:
+One prominent objection to Smart’s view comes from the philosopher Hilary
+Putnam. 
+
+Prompt:
+Putnam begins his objection this way:
+	Quote:
+	Consider what the brain-state theorist has to do to make good his claims. He has to specify a physical-chemical state such that any organism (not just a mammal) is in pain if and only if (a) it possesses a brain of a suitable physical-chemical structure; and (b) its brain is in that physical-chemical state.
+
+### The overall shape of Putnam's argument
+
+prompt:
+Putnam talks about "what the brain-state theorist has to do to make good his claims. He has to..."
+
+So Putnam is focusing on what the "brain-state theorist"---that is, the identity theorist---is committed to. 
+
+prompt:
+His form of argument is going to be:
+    argument:
+    (1) If identity theory were true, then A would be true.
+    (2) But A is false.
+    So: (3) Identity theory is false.
+
+### Putnam's first premise
+
+Prompt:
+To understand what Putnam is saying here, first consider this claim:
+	Argument:
+	That animal is in pain if and only if it has a brain that is in state B.
+
+Prompt:
+This claim has two parts to it. One part is:
+	Argument:
+	That animal is in pain if it has a brain that is in state B.
+
+That means that if the animal over there has a brain in state B, then it is in pain.
+
+
+Prompt:
+The second part is:
+	Argument:
+	That animal is in pain only if it has a brain that is in state B.
+
+That means if the animal is in pain, then it has a brain that is in state B.
+
+prompt:
+So to say:
+    argument:
+	That animal is in pain if and only if it has a brain that is in state B.
+is to say that, at least for that animal, there is a flawless correlation between being in pain and being in brain state B. 
+
+prompt:
+So to say:
+    argument:
+    *For each and every organism*, it is in pain if and only if it has a brain that is in state B.
+is to say that, *for every organism*, the two always go together. 
+
+prompt:
+Putnam says that the identity theorist:
+    quote:
+    [H]as to specify a physical-chemical state such that any organism (not just a mammal) is in pain if and only if (a) it possesses a brain of a suitable physical-chemical structure; and (b) its brain is in that physical-chemical state.
+In other words, the identity theorist is committed to the view that:
+    argument:
+    There exists *some* physical chemical state such that, for each and every organism, that organism is in pain if and only if it has a brain that is in that state.
+
+prompt:
+Why is Putnam saying that the identity theorist is committed to that?
+
+note:
+Because there being a brain state that is identical to being in pain implies there being a brain state that always goes together with being in pain.
+
+And the identity theorist is committed to the former.
+
+prompt:
+But if there is a brain state that always goes together with being in pain, that means that 
+%quote from Putnam
+
+### Putnam's second premise
+
+prompt:
+Putnam goes on to say:
+    quote:
+    It is not altogether impossible that such a state will be found. Even though octopus and mammal are examples of parallel (rather than sequential) evolution, for example, virtually identical structures (physically speaking) have evolved in the eye of the octopus and in the eye of the mammal, notwithstanding the fact that this organ has evolved from different kinds of cells in the two cases. Thus it is at least possible that parallel evolution, all over the universe, might *always* lead to *one and the same* physical "correlate" of pain. But this is certainly an ambitious hypothesis.
+
+
+%Finally, the hypothesis becomes still more ambitious when we realize that the brain-state theorist is not just saying that \emph{pain} is a brain state; he is, of course, concerned to maintain that \emph{every} psychological state is a brain state. Thus if we can find even one psychological predicate which can clearly be applied to both a mammal and an octopus (say ``hungry''), but whose physical-chemical ``correlate'' is different in the two cases, the brain-state theory has collapsed. It seems to me overwhelmingly probable that we can do this
