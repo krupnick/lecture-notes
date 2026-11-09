@@ -11,25 +11,54 @@ People, dogs, cats, whales, cows, etc. vs rocks, books, tables, chairs, etc.
 prompt:
 What is it about the first set of things which makes it true to say that they have a mental life?
 
+prompt:
 They experience pain and pleasure, they have beliefs and desires, they feel emotions like fear and excitement, and so on.
 
+prompt:
 Ok. But what is it about them that makes it true to say that they experience pain and pleasure? That they have beliefs and desires? That they experience emotions like fear and excitement, and so on?
 
 ### The behaviorist gives one answer
 
 prompt:
+Different philosophers have proposed different answers to that question.
 
-### The identity theorist gives another
+One answer is called behaviorism.
 
 prompt:
-The identity theorist is trying to answer the same question. But gives a different answer.
+This is the view that to have a mental life---to be afraid, to be feeling pain, to believe that Sacramento is the capital of CA---just is to behave in the right sorts of ways.
+
+prompt:
+This view was attractive to some philosophers for a couple of reasons.
+
+First, it eliminates talk of souls or immaterial minds.
+
+Second, it makes it easy to explain how we know what is going on in others minds.
+
+prompt:
+However, it became impossible to carry out the behavioral reduction/definition that was promised.
+
+Any attempt faces almost immediate counterexamples, e.g., think of defining what it is to be in pain in terms of exhibiting a certain set of behaviors.
+
+
+### The identity theorist gives a different answer
+
+prompt:
+The identity theorist is trying to answer the same basic question---what is it about things with minds that makes it true to say that they feel pain, have beliefs, experience emotions, and so on? 
+
+But the identity theorist gives a different answer: to have a mental life is to have a brain with the right sort of activing taking place in it.
+
+prompt:
+This is more than just the idea that our brains are vital to our mental lives. 
+
+A behaviorist could agree with that, since if my brain is damaged how I'm able to behave might drastically change.
+
 
 ## What is the identity theory?
 
 ### Sensations are brain processes
 
 prompt:
-Smart defends the thesis that, "sensations are brain processes." Pain and pleasure are sensations. What else?
+Smart states his main thesis as the thesis that, "sensations are brain processes." Pain and pleasure are sensations. What else?
 
 note:
 Hunger. Fatigue.
@@ -57,8 +86,6 @@ Smart says:
 So Smart is saying that pain is a brain process in the sense that pain = a brain process. 
 
 In other words, there is some brain process such that pain = that brain process---pain and that brain process are one and the same. 
-
-In other words, there is some brain process such that to be in pain *just is* to undergo that brain process.
 
 #### Smart draws a contrast between identity and perfect correlation
 
@@ -205,6 +232,8 @@ In other words, the identity theorist is committed to the view that:
     argument:
     There exists *some* physical chemical state such that, for each and every organism, that organism is in pain if and only if it has a brain that is in that state.
 
+That is: there is some brain state that always goes together (in every organism) with being in pain.
+
 prompt:
 Why is Putnam saying that the identity theorist is committed to that?
 
@@ -214,8 +243,13 @@ Because there being a brain state that is identical to being in pain implies the
 And the identity theorist is committed to the former.
 
 prompt:
-But if there is a brain state that always goes together with being in pain, that means that 
-%quote from Putnam
+But if there is a brain state that always goes together with being in pain, that means that:
+    quote:
+    [T]he physical-chemical state in question must be a possible state of a mammalian brain, a reptilian brain, a mollusc's brain (octopuses are mollusca, and certainly feel pain), etc. 
+    
+    At the same time, it must not be a possible (physically possible) state of the brain of any physically possible creature that cannot feel pain. 
+    
+    Even if such a state can be found, it must be...a [possible] state of the brain of any extraterrestrial life that may be found that will be capable of feeling pain before we can even entertain the supposition that it may be pain.
 
 ### Putnam's second premise
 
@@ -225,4 +259,14 @@ Putnam goes on to say:
     It is not altogether impossible that such a state will be found. Even though octopus and mammal are examples of parallel (rather than sequential) evolution, for example, virtually identical structures (physically speaking) have evolved in the eye of the octopus and in the eye of the mammal, notwithstanding the fact that this organ has evolved from different kinds of cells in the two cases. Thus it is at least possible that parallel evolution, all over the universe, might *always* lead to *one and the same* physical "correlate" of pain. But this is certainly an ambitious hypothesis.
 
 
-%Finally, the hypothesis becomes still more ambitious when we realize that the brain-state theorist is not just saying that \emph{pain} is a brain state; he is, of course, concerned to maintain that \emph{every} psychological state is a brain state. Thus if we can find even one psychological predicate which can clearly be applied to both a mammal and an octopus (say ``hungry''), but whose physical-chemical ``correlate'' is different in the two cases, the brain-state theory has collapsed. It seems to me overwhelmingly probable that we can do this
+prompt:
+And Putnam adds:
+    quote:
+    Finally, the hypothesis becomes still more ambitious when we realize that the brain-state theorist is not just saying that *pain* is a brain state; he is, of course, concerned to maintain that *every* psychological state is a brain state. 
+    
+    Thus if we can find even one psychological predicate which can clearly be applied to both a mammal and an octopus (say "hungry"), but whose physical-chemical "correlate" is different in the two cases, the brain-state theory has collapsed. It seems to me overwhelmingly probable that we can do this.
+
+prompt:
+Sometimes Putnam's objection is summarized by saying that mental states are "multiply realizable." 
+
+The same mental state---pain, for example---could be "realized" in different ways in different creatures.
