@@ -27,7 +27,7 @@ Let's start with Chalmers's argument.
 
 ## The zombie argument
 
-### Why does this process give rise to experience?
+### The hard problem: why does this process give rise to experience?
 
 prompt:
 Let's go to section 4. Start with the first paragraph.
@@ -44,19 +44,22 @@ Chalmers is asking: Why does that happening in the person's brain give rise to p
 prompt:
 Chalmers thinks that is possible---same stuff happening physically, but without the feeling of pain---and the thought experiment he now goes on to describe is meant to support that thought.
 
+prompt:
+And if we accept that thought---that the same stuff could be happening physically, without the feeling of pain---then that seems to imply that physicalism is wrong. 
+
 ### The definition of a zombie
 
 prompt:
-Let's go to the next paragraph. 
+Let's first go to the thought experiment that is introduced in the next paragraph, which is supposed to support the idea the same physical stuff could be happening without the feeling of pain.
 
 [Read second paragraph].
 
 prompt:
-Chalmers says:
+We need to try to get clear on what a philosophical zombie is supposed to be. Chalmers says:
     quote:
     A philosophical zombie is a being that is atom for atom identical to a conscious being such as you and me, but it is not conscious.
 
-This is how Chalmers defines what a zombie is. To understand the definition, we need to understand in what sense zombies are supposed to be "not conscious."
+To understand this definition, we need to understand in what sense zombies are supposed to be "not conscious."
 
 #### Zombies are not phenomenally conscious
 
@@ -82,7 +85,7 @@ Whereas a mental state that you could still be in even then is not a phenomenall
 prompt:
 Some examples.
     table:
-    | |phenomenally concious | not phenomenally conscious |
+    | |phenomenally conscious | not phenomenally conscious |
     | | feeling pain | believing that Norton published an intro philosophy text |
     | | hearing a banging noise | intending to pay your rent |
     | | seeing blue | anticipating that it will rain |
@@ -125,7 +128,87 @@ Yes
 prompt:
 So its behavior would be the same.
 
-### Zombies are coherent
+### An initial presentation of the argument
 
 prompt:
+Now we have some sense of what a philosophical zombie is supposed to be. 
 
+Chalmers now goes on to say:
+    quote:
+    There is little reason to think that philosophical zombies really exist. But what matters for our puposes is simply that the idea is coherent. There is no internal contradiction in the idea of a zombie, the way that there is an internal contradiction in the idea of a round square.
+
+prompt:
+Chalmers continues:
+    quote:
+    The hard problem of consciousness might then be put as the problem: Why are we not zombies?
+
+The same physical stuff that is happening inside of your brain or my brain right now *could* (Chalmers thinks) be happening without any "conscious experience" accompanying it. That's what the zombie thought experiment shows.
+
+Yet *there is* conscious experience going on for you and for me right now. 
+
+So why is that? Where does our conscious experience come from? The answer can't just point to what is going on in us physically. Because all of that could be taking place *without* any conscious experience.
+
+The answer must go *beyond* the physical. And thus physicalism is false.
+
+### A step-by-step reconstruction
+
+prompt:
+Let's slow down and try to reconstruct the argument step by step.
+
+prompt:
+First, let's introduce a definition. Let's say that a zombie version of our world would be a world that is physically the same as our world actually is, but which is completely devoid of phenomenal consciousness.
+
+prompt:
+The first step in Chalmers's argument is that we can coherently imagine such a world. 
+    argument:
+    (1) A zombie version of our world is conceivable.
+
+prompt:
+The next step is to deduce from there that a zombie version of our world is possible---meaning that the world could have turned out that way, i.e., physically the same, but without phenomenal consciousness.
+    argument:
+     (1) A zombie version of our world is conceivable.
+     So: (2) A zombie version of our world is possible, i.e., the world could have turned out physically the same, but without phenomenal consciousness. [from 1]
+
+prompt:
+But if physicalism is true, then our world is wholly physical. There is nothing here beyond the physical. 
+
+So, according to the physicalist, any world that is exactly the same as ours physically wouldn't be missing anything that is here.
+
+So if physicalism is true, the world could *not* have turned out physically the same, but yet lacking something that our world has.
+
+    argument:
+     (1) A zombie version of our world is conceivable.
+     So: (2) A zombie version of our world is possible, i.e., the world could have turned out physically the same, but without phenomenal consciousness. [from 1]
+     (3) If physicalism is true, then our world is wholly physical.
+     (4) If our world is wholly physical, then it could not have turned out physically the same, yet lacking something that our world has.
+     So: (5) If physicalism is true, the world could not have turned out physically the same, yet lacking something that our world has. [from 3,4]
+
+prompt:
+And our world does have phenomenal consciousness. So if physicalism is true, the world could not have turned out physically the same, yet lacking phenomenal consciousness.
+
+    argument:
+     (1) A zombie version of our world is conceivable.
+     So: (2) A zombie version of our world is possible, i.e., the world could have turned out physically the same, but without phenomenal consciousness. [from 1]
+     (3) If physicalism is true, then our world is wholly physical.
+     (4) If our world is wholly physical, then it could not have turned out physically the same, yet lacking something that our world has.
+     So: (5) If physicalism is true, the world could not have turned out physically the same, yet lacking something that our world has. [from 3,4]
+     (6) Our world has phenomenal consciousness.
+     So: (7) If physicalism is true, the world could not have turned out physically the same, yet lacking phenomenal consciousness. [from 5,6]
+
+prompt:
+But then from lines (2) and (7), it follows that physicalism is false.
+
+    argument:
+     (1) A zombie version of our world is conceivable.
+     So: (2) A zombie version of our world is possible, i.e., the world could have turned out physically the same, but without phenomenal consciousness. [from 1]
+     (3) If physicalism is true, then our world is wholly physical.
+     (4) If our world is wholly physical, then it could not have turned out physically the same, yet lacking something that our world has.
+     So: (5) If physicalism is true, the world could not have turned out physically the same, yet lacking something that our world has. [from 3,4]
+     (6) Our world has phenomenal consciousness.
+     So: (7) If physicalism is true, the world could not have turned out physically the same, yet lacking phenomenal consciousness. [from 5,6]
+     So: (8) Physicalism is false. [from 2,7]
+
+
+%Short answer questions on Chalmers
+%1. How does Chalmers define the notion of a "philosophical zombie"? In what sense is it supposed to be "not conscious"?
+%2. Chalmers says, "There is little reason to think that philosophical zombies really exist. But what matters for our purposes is simply that the idea is coherent. There is no internal contradiction in the idea of a zombie." So, according to Chalmers, we can coherently imagine the world being physically the same as it actually is, yet completely lacking phenomenal consciousness. This is ultimately supposed to show that physicalism is false. How so? How does Chalmers's argument against physicalism proceed from there?
