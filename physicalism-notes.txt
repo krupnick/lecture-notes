@@ -1,0 +1,131 @@
+#Physicalism
+## PHIL-1 Lecture notes
+
+## What is physicalism? 
+
+prompt:
+Physicalism, also known as materialism, is the thesis that "the world is wholly physical."
+
+So, on this view, there are no souls, no ghosts, no spirits, no angels, and so on.
+
+prompt:
+How many of you would consider yourself physicalists in this sense?
+
+prompt:
+It's a popular view within philosophy. But there are some dissenters.
+
+David Chalmers and Frank Jackson have both made very prominent arguments against physicalism. 
+
+prompt:
+Chalmers's argument has come to be known as the "zombie argument," and Jackson's has come to be known as the "knowledge argument."
+
+prompt:
+Both arguments have to do with consciousness. They both suggest that consciousness is an outlier. It cannot be fully accounted for by physicalism. That is why physicalism is wrong.
+
+prompt:
+Let's start with Chalmers's argument.
+
+## The zombie argument
+
+### Why does this process give rise to experience?
+
+prompt:
+Let's go to section 4. Start with the first paragraph.
+
+[Read first paragraph]
+
+prompt:
+Chalmers asks, "Why should this process gives rise to experience?"
+
+Imagine focusing on a specific process happening in someone's brain that we have learned is correlated with feeling pain in one's leg. 
+
+Chalmers is asking: Why does that happening in the person's brain give rise to pain? Is that result absolutely necessary? Why does it not give rise to some other sensation? Or to no sensation all together? Is that not possible?
+
+prompt:
+Chalmers thinks that is possible---same stuff happening physically, but without the feeling of pain---and the thought experiment he now goes on to describe is meant to support that thought.
+
+### The definition of a zombie
+
+prompt:
+Let's go to the next paragraph. 
+
+[Read second paragraph].
+
+prompt:
+Chalmers says:
+    quote:
+    A philosophical zombie is a being that is atom for atom identical to a conscious being such as you and me, but it is not conscious.
+
+This is how Chalmers defines what a zombie is. To understand the definition, we need to understand in what sense zombies are supposed to be "not conscious."
+
+#### Zombies are not phenomenally conscious
+
+prompt:
+When Chalmers defines a zombie as a being that is "not conscious," despite being atom for atom identical to a conscious being like you or me, he means that it is not "phenomenally conscious."
+
+So what does that mean?
+
+prompt:
+Philosophers make a distinction between two different kinds of mental states: those that are "phenomenally conscious" and those that are not.
+
+prompt:
+So, on this use of the term, *being phenomenally conscious* is a property that some mental states have, but that others lack.
+
+prompt:
+To say that a mental state is a phenomenally conscious mental state is to say that there is "something it is like" to be in that state.
+
+prompt:
+Think of the phenomenally conscious mental states as the ones that you can't possibly be in during a completely dreamless sleep. 
+
+Whereas a mental state that you could still be in even then is not a phenomenally conscious mental state.
+
+prompt:
+Some examples.
+    table:
+    | |phenomenally concious | not phenomenally conscious |
+    | | feeling pain | believing that Norton published an intro philosophy text |
+    | | hearing a banging noise | intending to pay your rent |
+    | | seeing blue | anticipating that it will rain |
+
+
+
+prompt:
+So a zombie is supposed to be "not conscious" in the sense that it lacks "phenomenal consciousness," meaning that it does not enter into any *phenomenally conscious* mental states.
+
+It might still be correct to describe it as entering into *other* mental states.
+
+prompt:
+So zombies are not by definition completely devoid of *any* mental life. They are just devoid, by definition, of any *phenomenally conscious* mental life.
+
+#### Zombies are otherwise the same as us
+
+prompt:
+Chalmers says:
+    quote:
+    Unlike the zombies found in Hollywood movies, philosophical zombies look just like normal humans from the outside, and their behavior is indistingushable from that of a conscious being. 
+
+prompt:
+Why, based on how Chalmers has defined what a zombie is, would they look just like normal humans?
+
+note:
+Because they are atom for atom duplicates of you/me.
+
+prompt:
+So, on the outside, they are the same as us. And what about the inside? When a zombie stubs its toe, what happens on the inside?
+
+note:
+The same physical process as happens in us.
+
+prompt:
+So, when your zombie twin stubs its toe, would it hop up and down on its other foot, just like you? 
+
+note:
+Yes 
+
+prompt:
+So its behavior would be the same.
+
+### Zombies are coherent
+
+prompt:
+
