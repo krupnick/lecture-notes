@@ -18,6 +18,8 @@ on its own line (case-insensitive, colon optional):
     note:              (alias: "instructor note:")
     argument:
     quote:
+    table:
+    image:
 
 Everything after a tag line belongs to that block, until the next tag line
 or the end of the file.
@@ -30,7 +32,7 @@ or the end of the file.
   - Straight quotes (" and ') are automatically converted to curly quotes.
 
 NESTING an argument, quote, or table INSIDE a prompt or note:
-  Indent the "argument:", "quote:", or "table:" tag line (a few spaces or
+  Indent the "argument:", "quote:", "table:", or "image:" tag line (a few spaces or
   a tab) and it will be nested inside the prompt/note above it instead of
   becoming its own separate block. An unindented tag always starts a new
   top-level block. "prompt:" and "note:" themselves are always top-level
@@ -65,6 +67,17 @@ SUB-SUB-SECTION HEADINGS:
   after the subtitle, with sub-sections indented under their section and
   sub-sub-sections indented again under their sub-section. No markup
   needed for this -- it just happens.
+
+IMAGES:
+  An "image:" block shows a picture. The first line under the tag is the
+  image's file name (or path, relative to the HTML file, e.g.
+  images/kim-timeline.svg); any lines after it become an optional
+  caption. Like argument/quote/table, indent the "image:" tag (and its
+  lines) to put the picture inside the prompt/note above it.
+
+      image:
+      images/kim-timeline.svg
+      Kim at t1, and someone waking up at t2.
 
 Any line starting with % anywhere in the file is treated as a comment and
 dropped entirely -- handy for keeping cut material in your notes file
@@ -111,12 +124,12 @@ import textwrap
 from pathlib import Path
 
 TAG_PATTERN = re.compile(
-    r'^(prompt|note|instructor note|argument|quote|table)\s*:?\s*$',
+    r'^(prompt|note|instructor note|argument|quote|table|image)\s*:?\s*$',
     re.IGNORECASE,
 )
 
 NESTABLE_TAG_PATTERN = re.compile(
-    r'^(argument|quote|table)\s*:?\s*$',
+    r'^(argument|quote|table|image)\s*:?\s*$',
     re.IGNORECASE,
 )
 
@@ -133,6 +146,7 @@ TAG_MAP = {
     'argument': 'argument',
     'quote': 'quote',
     'table': 'table',
+    'image': 'image',
 }
 
 
@@ -225,6 +239,23 @@ def table_html(raw_lines):
         '    </tbody>\n'
         '  </table>'
     )
+
+
+def image_html(raw_lines, indent='  '):
+    """Render an image block. The first non-blank line is the image's file
+    name or path (relative to the HTML file, e.g. images/kim.svg); any
+    further lines become a caption shown under the image."""
+    lines = [l.strip() for l in raw_lines if l.strip()]
+    if not lines:
+        return ''
+    src = html.escape(lines[0], quote=True)
+    caption = ' '.join(lines[1:])
+    alt = html.escape(caption, quote=True) if caption else ''
+    out = (f'{indent}<figure class="figure">\n'
+           f'{indent}  <img src="{src}" alt="{alt}">\n')
+    if caption:
+        out += f'{indent}  <figcaption>{format_inline(caption)}</figcaption>\n'
+    return out + f'{indent}</figure>'
 
 
 def parse_top_level(lines):
@@ -331,6 +362,8 @@ def render_segments(raw_lines, base_indent='    '):
             part = f'{base_indent}<div class="blockquote">\n{inner}\n{base_indent}</div>'
         elif seg_type == 'table':
             part = table_html(seg_lines)
+        elif seg_type == 'image':
+            part = image_html(seg_lines, indent=base_indent)
         else:
             part = ''
         if part.strip():
@@ -353,6 +386,8 @@ def block_to_html(tag, raw_lines):
         return f'  <div class="blockquote">\n{inner}\n  </div>'
     if tag == 'table':
         return table_html(raw_lines)
+    if tag == 'image':
+        return image_html(raw_lines)
     raise ValueError(f'Unknown tag: {tag}')
 
 

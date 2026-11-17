@@ -278,3 +278,28 @@ h4 {
   color: var(--ink-soft);
   margin-top: 0.15rem;
 }
+
+/* Images / diagrams (from "image:" blocks) */
+.figure {
+  margin: 0.9rem 0;
+  padding: 0.75rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.figure figcaption {
+  margin-top: 0.5rem;
+  font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
