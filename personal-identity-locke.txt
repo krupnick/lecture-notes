@@ -34,7 +34,7 @@ But even if all of the purely scientific barriers are overcome, a more philosoph
 prompt:
 We may pose the philosophical question this way.
 
-Here is Kim at time t1. Suppose that all the science works out. So now we have this individual at time t2. They wake up and think to themselves, "Wow! It worked! But what year is it? Are my parents still alive? Is Josh?..."
+Here is Kim before she dies. Call that time t1. Suppose that all the science works out. So now we have this individual at some later time. Call that time t2. They wake up and think to themselves, "Wow! It worked! But what year is it? Are my parents still alive? Is Josh?..."
 
     image:
     images/kim-timeline.svg
@@ -67,24 +67,239 @@ We can't decide whether an afterlife is even possible---whether it's possible fo
 ## What a criterion of personal identity is
 
 prompt:
+So the case of Kim Suozzi raises a more general issue: under what conditions does a person continue on?
+
+A so-called "criterion of personal identity" puts forward an answer.
+
+So let's talk about what a criterion of personal identity is.
+
+prompt:
+So suppose that there is a person A, that exists at an intial time t1. Maybe you encountered them at this time. At a later time t2, you encounter a person B. B *might* just be A, or might not:
 
     image:
     images/a-b-timeline.svg
 
+prompt:
+A criterion of personal identity answers two questions.
+
+### What is sufficient for identity?
+
+prompt:
+The first question is: what would *absolutely guarantee* that B = A? 
+
+prompt:
+So suppose that the clothes that B is wearing at t2 are the very clothes that A was wearing at t1. Is that a guarantee that B = A?
+
+note:
+No, B could just be a friend borrowing A's clothes.
+
+prompt:
+What if the physical features of B at t2 exactly match up with the physical features of A at t1? Is that a guarantee that B = A?
+
+note:
+No, because B could be A's identical twin.
+
+prompt:
+Is there something that would guarantee that B = A (beyond the trivial, e.g., that B is A)?
+
+A criterion of personal identity offers an answer to that question.
+
+### What is necessary for identity?
+
+prompt:
+A separate question is: if B = A, what must follow?
+
+prompt:
+So, for example, suppose that B = A. Does that necessarily imply that the physical features of B at t2 exactly match the physical features of A at t1?
+
+note:
+No, the same person can change their physical features over time. 
+
+prompt:
+Or again suppose that B = A. Does that necessarily imply that the set of beliefs that B has at t2 is the very same set of beliefs that A has at t1?
+
+note:
+No, because the same person can change at least some of their beliefs over time.
+
+prompt:
+So what does necessarily follow from the supposition that B = A?
+
+A criteron of personal identity answers this question as well.
+
+### What is necessary and sufficient?
+
+prompt:
+So a criterion of personal identity is an answer to the following question:
+
+    image:
+    images/a-b-timeline.svg
+
+Under what conditions, exactly, is it true to say that B = A? That is, what are the necessary and sufficient conditions for that?
+
+
 ## The soul criterion
+
+prompt:
+One option is what we might call the soul criterion.
 
 ### What the soul criterion says
 
+prompt:
+The proponent of this view assumes that each of us has an immaterial soul. And then they hold that:
+    argument:
+    A, who exists at t1 = B, who exists at t2 iff A's immaterial soul at t1 = B's immaterial soul at t2.
+
+prompt:
+One objection to this view is that the basic assumption upon which it is based is wrong. There are no such things as immaterial souls. 
+
+prompt:
+But the philosopher John Locke had some other objections---objections which did not depend on denying that there are such things souls.
 
 ### Locke's objections
 
+#### Same soul is not necessary for identity
+
+prompt:
+First, Locke questioned whether it's necessary for B and A to be the same individual that the soul that is in A at t1 is the very soul that is in B at t2.
+
+In other words, he suggested that it might be the case that B and A are the very same individual, even though the soul that is in A at t1 is *not* the very soul that is in B at t2.
+
+    image:
+    images/same-person-different-soul.svg
+
+prompt:
+Read paragraph 13. 
+
+He writes:
+    quote:
+    [I]f the same consciousness can be transferred from one thinking substance to another, it will be possible that two thinking substances may make but one person.
+
+And why couldn't the same consciousness be transferred from one soul to another?
+
+#### Same soul is not sufficient for identity
+
+prompt:
+Second, Locke questioned whether it's sufficient for B and A to be the same individual that the soul that is in A at t1 is the very soul that is in B at t2.
+
+In other words, he suggested that it might happen that even though the soul that is in A at t1 *is* the very soul that is in B at t2, B and A are still distinct individuals.
+
+    image:
+    images/same-soul-different-person.svg
+
+prompt:
+Read paragraph 14.
+
+Even if it's true that the soul that is in you now is the very soul that was in Socrates back in ancient Greece, it's still not the case that you *are* Socrates.
 
 ## Locke's memory criterion
 
+### What the memory criterion says
+
+#### Memory is necessary for identity
+
+prompt:
+Locke holds that even *if* the soul that is in you now is the very soul that was in Socrates back in ancient Greece, you still are not Socrates.
+
+But why not? Why, even then, are you not Socrates?
+
+note:
+Because you are not "conscious of any of Socrates's actions or thoughts."
+
+prompt:
+This suggests that, on Locke's view, memory is necessary for personal identity. 
+
+That is, it suggests that, according to Locke, if it's true that B and A are one and the same individual, then it has to be the case that B, at the later time t2, can remember some of the actions, thoughts, experiences, of A back at time t1.
+
+#### Memory is sufficient for identity
+
+prompt:
+Some passages from Locke seem to imply that, on his view, it's also true that memory is sufficent for personal identity.
+
+prompt:
+Read paragraph 16 and paragraph 19. 
+
+#### Memory is necessary and sufficient for identity
+
+prompt:
+So Locke seems to accept what is often called the memory criterion of personal identity:
+    argument:
+    A, who exists at t1 = B, who exists at t2 iff B can remember at t2 at least some of the experiences of A at t1.
+
 ### An obvious objection and Locke's response
+
+#### Memory is not necessary for identity
+
+prompt:
+There is an obvious objection to the memory criterion. Namely, is memory really necessary for identity?
+
+prompt:
+Can't a person lose all memory of a certain stretch of their life? That doesn't mean that it was not them who did those things.
+
+#### Locke accepts this consequence of his view
+
+prompt:
+Locke actually raises this objection himself, to his own view. See paragraph 20, where he writes:
+    quote:
+    But yet possibly it will still be objected, suppose I wholly lose the memory of some parts of my life, beyond a possiblity of retrieving them, so that perhaps I shall never be conscious of them again; yet am I not the same person that did those actions, had those thoughts that I once was conscious of, though I have now forgot them? 
+
+His answer is no, you are not the person who did those things. 
+
+This is obvioulsy a hard pill to swallow.
 
 
 ### Reid's objection to Locke
 
+prompt:
+The philosopher Thomas Reid had a different objection to Locke's view.
+
+prompt:
+Let's read that passage, stopping after the example that Reid describes.
+
+prompt:
+The example depicts this scenario:
+
+    image:
+    images/reid-brave-officer.svg
+
+prompt:
+Reid goes on to spell out the consequences of Locke's view when applied to this situation. He writes:
+    quote:
+    These things being supposed, it follows, from Mr. Locke's doctrine, that he who was flogged at school is the same person who took the standard, and that he who took the standard is the same person who was made a general. Whence it follows, if there be any truth in logic, that the general is the same person with him who was flogged at school. 
+    
+Why is the boy = the officer on Locke's view?
+
+note:
+Because the officer remembers, at 2, some of the experiences of the boy at t1.
+
+prompt:
+And why is the officer = the general on Locke's view?
+
+note:
+Because the general remembers, at t3, some of the experiences of the officer at t2.
+
+prompt:
+And so why, on Locke's view, is the boy = the general?
+
+note:
+That's just a matter of logic. The boy = the officer = the general. So the boy = the general.
+
+prompt:
+But now Reid goes on:
+    quote:
+    But the general's cosciousness does not reach so far back as his flogging; therefore, according to Mr. Locke's doctrine, he is not the person who was flogged. Therefore the general is, and at the same time is not, the same person with him who was flogged at school.
+
+prompt:
+Because the general, at 3, does not remember any of the experiences of the boy at t1, it also follows from Locke's view that the boy and the general are *not* one and the same person.
+
+prompt:
+So Locke's view implies contradictory things about this situation. 
+
+
 
 ### A revised version of Locke's view?
+
+prompt:
+While Locke's view---understood as the memory criterion---has serious problems, a number of philosophers have thought that Locke was roughly on the right track.
+
+Derek Parfit was one such philosopher. Next time, we'll look at his attempt to patch up some of the problems with Locke's view.
+
