@@ -1,0 +1,61 @@
+#Personal Identity - Williams
+## PHIL-1 Lecture notes
+
+## Can we switch bodies?
+
+prompt:
+Williams presents a scenario which many would be tempted to describe as a scenrio in which two individuals *switch bodies*.
+
+prompt:
+The scenario is as follows:
+
+A is Aaron from Oakland. Fan of the Warriors, runs around Lake Merritt, etc.
+
+B is Bill from Boston. Fan of the Celtics, runs around the Charles River, etc.
+    image:
+    images/williams-1-a-and-b.svg
+
+
+prompt:
+At the push of a button, at t2, each has all information extracted from his brain, and then put into the other's brain. 
+
+    image:
+    images/williams-2-button.svg
+
+So, at t3, we have two individuals: the A-body person, and the B-body person.
+
+The B-body person answers to `Aaron', expresses Warriors fandom, seems to remember going for runs around Lake Merritt, etc.
+
+The A-body person answers to `Bill', etc.
+
+prompt:
+This *seems* like a situation where A and B have switched bodies (such situations appear in fiction).
+
+What do you think?
+
+prompt:
+What does the Psychological Criterion imply here?
+
+note:
+That B-body person = A, since B-body person is uniquely psychologically continuous with A.
+
+That A-body person = B, since A-body person is uniquely psychologically continuous with B.
+
+prompt:
+So the Psychological Criterion agrees with the common, tempting take on this scenario.
+
+prompt:
+Let's imagine that after this experiement is performed, the A-body person is tortured, and the B-body person is given $100k.
+
+    image:
+    images/williams-3-torture-money.svg
+
+On the psychological view, at time t4, it is B who is tortured, and A who receives the money.
+
+prompt:
+But is this really the correct way to view the situation?
+
+Williams gives some reasons for saying that the answer is *no*.
+
+## The guard cases
+
