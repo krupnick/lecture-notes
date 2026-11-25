@@ -61,12 +61,14 @@ He puts forward an argument for saying that, in this scenario, it is actually Aa
 
 What's the argument?
 
-## The guard cases
+## Williams's argument against
 
 prompt:
 Williams's argument centers on a series of cases that he describes in the long paragraph that starts, "Let's now consider something apparently different..."
 
 So let's read through that paragraph together.
+
+### The guard cases
 
 prompt:
 Williams starts:
@@ -103,7 +105,6 @@ Once I have been made to forget, I of course won't be afraid of being tortured, 
 
 But *right now*, before I've been made to forget, I'm still afraid. And it *makes sense* for me to be afraid. 
 
-(In fact, what I'm being told about what will happen to me sounds even scarier than before. Not only will I be tortured, but it will happen unexpectedly.)
 
 prompt:
 Williams continues:
@@ -115,9 +116,120 @@ We can think of this as case 2. In this case, this is what the guard says will h
 Williams comments:
     quote:
     This does not cheer me up, either, since I can readily conceive of being involved in an accident, for instance, as a result of which I wake up in a completely amnesiac state and also in great pain; that could certainly happen to me, I should not like it to happen to me, nor to know that it was going to happen to me. 
-According to Williams, in this case it still makes sense to be afraid, right now, of feeling pain tomorrow.
+So in this case it still makes sense to be afraid, right now, of feeling pain tomorrow.
 
 prompt:
 Williams goes on:
     quote:
-    
+    He now further adds that at the moment of torture I shall not only not remember the things I am now in a position to remember, but will have a different set of impressions of my past, quite different from the memories I now have. 
+We can think of this as case 3. In this case, this is what the guard says will happen to you:
+    image:
+    images/williams-guard-case-3.svg
+Williams goes on:
+    quote:
+    I do not think that this would cheer me up, either. For I can at least conceive the possibility, if not the concrete reality, of going completely mad, and thinking perhaps that I am George IV or somebody; and being told that something like that was going to happen to me would have no tendency to reduce the terror of being told authoritatively that I was going to be tortured, but would merely compound the horror. 
+In this case, it still makes sense to be afraid, right now, of being tortured tomorrow.
+
+prompt:
+Finally, Williams adds:
+    quote:
+    Nor do I see why I should be put into any better frame of mind by the person in charge adding lastly that the impressions of my past with which I shall be equipped on the eve of torture will exactly fit the past of another person now living, and that indeed I shall acquire these impressions by (for instance) information now in his brain being copied into mine.
+We can think of this as case 4. In this case, this is what the guard says will happen to you:
+    image:
+    images/williams-guard-case-4.svg
+Williams says:
+    quote:
+    Fear, surely, would still be the proper reaction: and not because one did not know what was going to happen, but because in one vital respect at least one did know what was going to happen---torture, which one can indeed expect to happen to oneself, and to be preceded by certain mental derangements as well.
+
+### A contrasting case
+
+prompt:
+Contrast the cases that Williams has just described with one where the guard tells you that you will be painlessly killed first, and, "then tortured."
+
+So the guard says that this is what will happen to you:
+
+    image:
+    images/williams-guard-case-alpha.svg
+
+In this case, fear of torture wouldn't make sense. You would be confused by what the guard was saying. Is he saying that they are going to mutiliate your body? 
+
+Here you would be afraid of dying, but not of being tortured.
+
+prompt:
+So in the guard cases, if you *are* afraid of being tortured, what does that show? What are you assuming?
+
+note:
+You are assuming that *you will still be around* in each case and will be the person getting tortured.
+
+Otherwise fear of torture makes no sense.
+
+prompt:
+And if it's correct to see those cases as cases where *you* are tortured, why does that matter?
+
+note:
+Because it means that, in those cases, *you persist* through the changes that are described.
+
+prompt:
+And why is that important?
+
+Because in those cases---particularly the last one---what happens to you is *very much like* what happens to Aaron and Bill.
+
+### Making the case even more closely resemble the original experiment.
+
+prompt:
+Now, the last case is different from the original experiment in some potentially relevant ways. 
+
+prompt:
+First, in the last case, it's only your memories which are replaced, and the original experiment involves a more radical psychological transformation than that.
+
+So let's imagine that what the guard says is that it's not just your memories which are going to be replaced, but all other aspects of your psychology too, by being copied over from someone else, and then you will be tortured.
+
+So the guard describes what will happen to you as follows, which we can call case 5:
+    image:
+    images/williams-guard-case-5.svg
+
+In this scenario, does it no longer makes sense for you to be afraid of being tortured? Does it make the case like case 𝛼? One where you will no longer exist tomorrow?
+
+Williams would say that it still makes sense for you to be afraid now of being tortured tomorrow.
+
+prompt:
+Also, we naturally assume that the person whose psychology is being copied over on to you is otherwise being left alone. They just serve as the source material, but are themselves left unchanged.
+
+Whereas, in the original experiment, Bill doesn't just serve as the source material for Aaron. Bill himself has Aaron's psychology copied on to him.
+
+So to make things more like the original experiment, we could imagine that you are told that, not only will someone else's psychology be copied on to you, before you are tortured, but, by the way, your psychology will also be copied on to that person, before they are given $100k.
+
+We can call that case 6:
+    image:
+    images/williams-guard-case-6.svg
+
+But does this change anything, in terms of your fear of being tortured tomorrow? How does *what will happen to someone else* matter at all?
+
+prompt:
+If you say that it does change things---it's not *you* who gets tortured in this case, but the other person---then shouldn't you say that it's not you who gets tortured in case 5?
+
+And if it's not you who gets tortured in case 5, in what case is it still you?
+
+### The argument
+
+prompt:
+We could see Williams as arguing as follows:
+    argument:
+    (1) If it's you who is tortured in case 6 (and someone else who gets the money) then, in the original experiment, it's Aaron who is tortured (and Bill who gets the money).
+    (2) It's you who is tortured in case 6 (and someone else who gets the money).
+    So (3) In the original experiment, it's Aaron who is tortured (and Bill who gets the money).
+
+
+prompt:
+The motivation for the first premise is simply that the two scenarios are exactly analogous.
+
+prompt:
+The reason to accept the second premise is that it *makes sense* for you to be afraid of being tortured in that case, and that only makes sense if it is *you* who gets tortured in that scenario.
+
+If you would *not* be afraid of being tortured in that case, where do you stop being afraid? Just at case 6? Why not case 5? If at case 5, why not before that?
+
+
+
+%Short answer questiosn for Williams
+%1. Williams describes a scenario which many people would be tempted to claim is a scenario in which two individuals switch bodies. What is the scenario that Williams describes? Does the psychological criterion imply that the two individuals in his scenario have indeed switched bodies? If so, why does the psychological criterion have that implication?
+%2. Williams provides an argument for thinking that, in the scenario he describes, the two individuals actually have not switched bodies. What is his argument for that conclusion?
